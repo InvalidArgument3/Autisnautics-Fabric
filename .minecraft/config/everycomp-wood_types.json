@@ -1,29 +1,5 @@
 {
   "types": {
-    "wood_type": {
-      "botania.livingwood": true,
-      "botania.dreamwood": true,
-      "deeperdarker.echo": true,
-      "dimdoors.driftwood": true,
-      "terrestria.redwood": true,
-      "terrestria.hemlock": true,
-      "terrestria.rubber": true,
-      "terrestria.cypress": true,
-      "terrestria.willow": true,
-      "terrestria.japanese_maple": true,
-      "terrestria.rainbow_eucalyptus": true,
-      "terrestria.sakura": true,
-      "terrestria.yucca_palm": true,
-      "traverse.fir": true,
-      "twilightforest.twilight_oak": true,
-      "twilightforest.canopy": true,
-      "twilightforest.mangrove": true,
-      "twilightforest.dark": true,
-      "twilightforest.time": true,
-      "twilightforest.transformation": true,
-      "twilightforest.mining": true,
-      "twilightforest.sorting": true
-    },
     "leaves_type": {
       "twilightforest.beanstalk": true,
       "twilightforest.thorn": true,
@@ -54,14 +30,38 @@
       "traverse.orange_autumnal": true,
       "traverse.yellow_autumnal": true,
       "traverse.fir": true
+    },
+    "wood_type": {
+      "botania.livingwood": true,
+      "botania.dreamwood": true,
+      "deeperdarker.echo": true,
+      "dimdoors.driftwood": true,
+      "terrestria.redwood": true,
+      "terrestria.hemlock": true,
+      "terrestria.rubber": true,
+      "terrestria.cypress": true,
+      "terrestria.willow": true,
+      "terrestria.japanese_maple": true,
+      "terrestria.rainbow_eucalyptus": true,
+      "terrestria.sakura": true,
+      "terrestria.yucca_palm": true,
+      "traverse.fir": true,
+      "twilightforest.twilight_oak": true,
+      "twilightforest.canopy": true,
+      "twilightforest.mangrove": true,
+      "twilightforest.dark": true,
+      "twilightforest.time": true,
+      "twilightforest.transformation": true,
+      "twilightforest.mining": true,
+      "twilightforest.sorting": true
     }
   },
   "entries": {
+    "leaves_type": {},
     "wood_type": {
       "friendsandfoes.beehive": true,
       "create.window_pane": true,
       "create.window": true
-    },
-    "leaves_type": {}
+    }
   }
 }
