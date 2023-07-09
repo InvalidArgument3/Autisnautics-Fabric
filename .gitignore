@@ -12,3 +12,5 @@
 !.minecraft/patchouli_books/*
 !.minecraft/resourcepacks/*
 !.minecraft/shaderpacks/*
+*.properties
+.minecraft/config/everycomp-wood_types.json
