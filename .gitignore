@@ -1,8 +1,10 @@
-.minecraft/backups/*
-.minecraft/chiselsandbits/*
-.minecraft/ESM/*
-.minecraft/local/*
-.minecraft/logs/*
-.minecraft/saves/*
-.minecraft/schematics/*
-.minecraft/screenshots/*
+#ignore everything
+*
+
+#..except these!
+!.minecraft/config/*
+!.minecraft/mods/*
+!.minecraft/kubejs/*
+!.minecraft/patchouli_books/*
+!.minecraft/resourcepacks/*
+!.minecraft/shaderpacks/*
