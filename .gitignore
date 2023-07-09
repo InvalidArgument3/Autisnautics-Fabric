@@ -1,0 +1,14 @@
+#ignore everything
+*
+
+#..except these!
+!.gitignore
+!.instance.cfg
+!mmc-pack.json
+!.minecraft/config/*
+!.minecraft/defaultconfigs/*
+!.minecraft/mods/*
+!.minecraft/kubejs/*
+!.minecraft/patchouli_books/*
+!.minecraft/resourcepacks/*
+!.minecraft/shaderpacks/*
