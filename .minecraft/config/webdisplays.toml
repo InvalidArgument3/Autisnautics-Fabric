@@ -1,0 +1,21 @@
+[main]
+blacklist = []
+padHeight = 480
+hardRecipes = true
+homepage = "https://www.google.com"
+disableOwnershipThief = false
+maxResolutionX = 1920
+maxResolutionY = 1080
+miniservPort = 25566
+miniservQuota = 1024
+maxScreenSizeX = 16
+maxScreenSizeY = 16
+[client]
+loadDistance = 30.0
+unloadDistance = 32.0
+
+[client.autoVolumeControl]
+enableAutoVolume = true
+ytVolume = 10.0
+dist100 = 10.0
+dist0 = 30.0

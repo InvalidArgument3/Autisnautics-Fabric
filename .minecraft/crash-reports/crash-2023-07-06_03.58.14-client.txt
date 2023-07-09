@@ -1,0 +1,488 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 2023-07-06 03:58:14
+Description: mouseReleased event handler
+
+java.lang.IndexOutOfBoundsException: Index 54 out of bounds for length 54
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:361)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at net.minecraft.class_2371.get(class_2371.java:47)
+	at net.minecraft.class_1703.method_34246(class_1703.java:213)
+	at net.minecraft.class_1703.method_7623(class_1703.java:175)
+	at mezz.jei.common.util.ServerCommandUtil.mousePickupItemStack(ServerCommandUtil.java:151)
+	at mezz.jei.gui.util.CommandUtil.giveStack(CommandUtil.java:44)
+	at mezz.jei.gui.input.handlers.CheatInputHandler.lambda$handleGive$0(CheatInputHandler.java:65)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at mezz.jei.gui.input.handlers.CheatInputHandler.handleGive(CheatInputHandler.java:61)
+	at mezz.jei.gui.input.handlers.CheatInputHandler.handleUserInput(CheatInputHandler.java:52)
+	at mezz.jei.gui.input.handlers.LimitedAreaInputHandler.handleUserInput(LimitedAreaInputHandler.java:40)
+	at mezz.jei.gui.input.handlers.UserInputRouter.lambda$handleExecuteClick$2(UserInputRouter.java:89)
+	at java.base/java.util.Optional.flatMap(Optional.java:289)
+	at mezz.jei.gui.input.handlers.UserInputRouter.handleExecuteClick(UserInputRouter.java:89)
+	at mezz.jei.gui.input.handlers.UserInputRouter.handleUserInput(UserInputRouter.java:33)
+	at mezz.jei.gui.input.ClientInputHandler.onGuiMouseReleased(ClientInputHandler.java:86)
+	at mezz.jei.fabric.startup.EventRegistration.lambda$beforeMouseRelease$2(EventRegistration.java:76)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at mezz.jei.fabric.startup.EventRegistration.beforeMouseRelease(EventRegistration.java:76)
+	at net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeMouseReleaseEvent$30(ScreenEventFactory.java:175)
+	at net.minecraft.class_312.handler$dob000$fabric-screen-api-v1$beforeMouseReleasedEvent(class_312.java:3102)
+	at net.minecraft.class_312.method_1605(class_312.java:96)
+	at net.minecraft.class_437.method_25412(class_437.java:489)
+	at net.minecraft.class_312.method_1601(class_312.java:96)
+	at net.minecraft.class_312.method_22686(class_312.java:165)
+	at net.minecraft.class_1255.execute(class_1255.java:103)
+	at net.minecraft.class_312.method_22684(class_312.java:165)
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43)
+	at org.lwjgl.system.JNI.invokeV(Native Method)
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403)
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:197)
+	at net.minecraft.class_1041.method_15998(class_1041.java:315)
+	at net.minecraft.class_310.method_1523(class_310.java:1205)
+	at net.minecraft.class_310.method_1514(class_310.java:768)
+	at net.minecraft.client.main.Main.method_44604(Main.java:244)
+	at net.minecraft.client.main.Main.main(Main.java:51)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:88)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:126)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:71)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266)
+	at java.base/java.util.Objects.checkIndex(Objects.java:361)
+	at java.base/java.util.ArrayList.get(ArrayList.java:427)
+	at net.minecraft.class_2371.get(class_2371.java:47)
+	at net.minecraft.class_1703.method_34246(class_1703.java:213)
+	at net.minecraft.class_1703.method_7623(class_1703.java:175)
+	at mezz.jei.common.util.ServerCommandUtil.mousePickupItemStack(ServerCommandUtil.java:151)
+	at mezz.jei.gui.util.CommandUtil.giveStack(CommandUtil.java:44)
+	at mezz.jei.gui.input.handlers.CheatInputHandler.lambda$handleGive$0(CheatInputHandler.java:65)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at mezz.jei.gui.input.handlers.CheatInputHandler.handleGive(CheatInputHandler.java:61)
+	at mezz.jei.gui.input.handlers.CheatInputHandler.handleUserInput(CheatInputHandler.java:52)
+	at mezz.jei.gui.input.handlers.LimitedAreaInputHandler.handleUserInput(LimitedAreaInputHandler.java:40)
+	at mezz.jei.gui.input.handlers.UserInputRouter.lambda$handleExecuteClick$2(UserInputRouter.java:89)
+	at java.base/java.util.Optional.flatMap(Optional.java:289)
+	at mezz.jei.gui.input.handlers.UserInputRouter.handleExecuteClick(UserInputRouter.java:89)
+	at mezz.jei.gui.input.handlers.UserInputRouter.handleUserInput(UserInputRouter.java:33)
+	at mezz.jei.gui.input.ClientInputHandler.onGuiMouseReleased(ClientInputHandler.java:86)
+	at mezz.jei.fabric.startup.EventRegistration.lambda$beforeMouseRelease$2(EventRegistration.java:76)
+	at java.base/java.util.Optional.map(Optional.java:260)
+	at mezz.jei.fabric.startup.EventRegistration.beforeMouseRelease(EventRegistration.java:76)
+	at net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeMouseReleaseEvent$30(ScreenEventFactory.java:175)
+	at net.minecraft.class_312.handler$dob000$fabric-screen-api-v1$beforeMouseReleasedEvent(class_312.java:3102)
+	at net.minecraft.class_312.method_1605(class_312.java:96)
+	at net.minecraft.class_437.method_25412(class_437.java:489)
+	at net.minecraft.class_312.method_1601(class_312.java:96)
+	at net.minecraft.class_312.method_22686(class_312.java:165)
+	at net.minecraft.class_1255.execute(class_1255.java:103)
+	at net.minecraft.class_312.method_22684(class_312.java:165)
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43)
+	at org.lwjgl.system.JNI.invokeV(Native Method)
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403)
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:197)
+
+-- Affected screen --
+Details:
+	Screen name: net.minecraft.class_481
+Stacktrace:
+	at net.minecraft.class_437.method_25412(class_437.java:489)
+	at net.minecraft.class_312.method_1601(class_312.java:96)
+	at net.minecraft.class_312.method_22686(class_312.java:165)
+	at net.minecraft.class_1255.execute(class_1255.java:103)
+	at net.minecraft.class_312.method_22684(class_312.java:165)
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43)
+	at org.lwjgl.system.JNI.invokeV(Native Method)
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3403)
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:197)
+	at net.minecraft.class_1041.method_15998(class_1041.java:315)
+	at net.minecraft.class_310.method_1523(class_310.java:1205)
+	at net.minecraft.class_310.method_1514(class_310.java:768)
+	at net.minecraft.client.main.Main.method_44604(Main.java:244)
+	at net.minecraft.client.main.Main.main(Main.java:51)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:88)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:126)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:71)
+
+-- Affected level --
+Details:
+	All players: 1 total; [class_746['validpoint'/1, l='ClientLevel', x=-136.90, y=6.00, z=78.04]]
+	Chunk stats: 4096, 1142
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (-192,63,32), Section: (at 0,15,0 in -12,3,2; chunk contains blocks -192,-64,32 to -177,319,47), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,-64,0 to -1,319,511)
+	Level time: 8420 game time, 8420 day time
+	Server brand: fabric
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.class_638.method_8538(class_638.java:453)
+	at net.minecraft.class_310.method_1587(class_310.java:2341)
+	at net.minecraft.class_310.method_1514(class_310.java:787)
+	at net.minecraft.client.main.Main.method_44604(Main.java:244)
+	at net.minecraft.client.main.Main.main(Main.java:51)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:468)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:88)
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:126)
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:71)
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: Yes
+	Packs: Default, GAFpack custom splashes.zip, Fabric Mods, Seasonal Lush Caves, Everycomp Generated Pack, KubeJS Resource Pack [assets]
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19.2
+	Minecraft Version ID: 1.19.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.7, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 2938132952 bytes (2802 MiB) / 4932501504 bytes (4704 MiB) up to 6442450944 bytes (6144 MiB)
+	CPUs: 12
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 5 5600X 6-Core Processor             
+	Identifier: AuthenticAMD Family 25 Model 33 Stepping 0
+	Microarchitecture: Zen 3
+	Frequency (GHz): 3.70
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: NVIDIA GeForce GTX 1070
+	Graphics card #0 vendor: NVIDIA (0x10de)
+	Graphics card #0 VRAM (MB): 4095.00
+	Graphics card #0 deviceId: 0x1b81
+	Graphics card #0 versionInfo: DriverVersion=31.0.15.3168
+	Graphics card #1 name: NVIDIA GeForce GTX 1060 6GB
+	Graphics card #1 vendor: NVIDIA (0x10de)
+	Graphics card #1 VRAM (MB): 4095.00
+	Graphics card #1 deviceId: 0x1c03
+	Graphics card #1 versionInfo: DriverVersion=31.0.15.3168
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 57692.29
+	Virtual memory used (MB): 26119.02
+	Swap memory total (MB): 25000.00
+	Swap memory used (MB): 151.12
+	JVM Flags: 9 total; -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xms3096m -Xmx6144m
+	Fabric Mods: 
+		ad_astra: Ad Astra 1.12.6
+		alloy_forgery: Alloy Forgery 2.0.20+1.19
+		almostunified: AlmostUnified 1.19.2-0.5.0
+		altorigingui: Alternate Origin GUI 1.0.0
+		animated_armor: Animated Armor Origin 1.7.0
+		animated_guns: Simple Animated Guns 1.2
+		appleskin: AppleSkin 2.4.1+mc1.19
+		architectury: Architectury 6.5.85
+		azurelib: AzureLib 1.0.24
+			com_eliotlash_mclib_mclib: mclib 20
+		balm-fabric: Balm 4.5.7
+		bclib: BCLib 2.1.7
+		bettercombat: Better Combat 1.7.1+1.19
+		betterdeserttemples: YUNG's Better Desert Temples 1.19.2-Fabric-2.2.2
+			org_reflections_reflections: reflections 0.10.2
+		betterdungeons: YUNG's Better Dungeons 1.19.2-Fabric-3.2.1
+		betterend: Better End 2.1.6
+		betterfortresses: YUNG's Better Nether Fortresses 1.19.2-Fabric-1.0.5
+		bettermineshafts: YUNG's Better Mineshafts 1.19.2-Fabric-3.2.0
+		betternether: Better Nether 7.1.4
+		betteroceanmonuments: YUNG's Better Ocean Monuments 1.19.2-Fabric-2.1.0
+		betterstrongholds: YUNG's Better Strongholds 1.19.2-Fabric-3.2.0
+		bosses_of_mass_destruction: Bosses of Mass Destruction (Beta) 1.4.6-1.19.2
+			maelstrom_library: Maelstrom Library 1.3-1.19-pre1
+			multipart_entities: MultipartEntities 1.2-1.19-pre1
+		botania: Botania 1.19.2-440-FABRIC
+			fiber: fiber 0.23.0-2
+			reach-entity-attributes: Reach Entity Attributes 2.3.0
+			step-height-entity-attribute: Step Height Entity Attribute 1.0.0
+		botarium: Botarium 1.8.2
+			team_reborn_energy: Energy 2.2.0
+		cardinal-components: Cardinal Components API 5.0.2
+			cardinal-components-base: Cardinal Components API (base) 5.0.2
+			cardinal-components-block: Cardinal Components API (blocks) 5.0.2
+			cardinal-components-chunk: Cardinal Components API (chunks) 5.0.2
+			cardinal-components-entity: Cardinal Components API (entities) 5.0.2
+			cardinal-components-item: Cardinal Components API (items) 5.0.2
+			cardinal-components-level: Cardinal Components API (world saves) 5.0.2
+			cardinal-components-scoreboard: Cardinal Components API (scoreboard) 5.0.2
+			cardinal-components-world: Cardinal Components API (worlds) 5.0.2
+		chunky: Chunky 1.3.38
+		chunkyborder: Chunkyborder 1.1.34
+		cloth-config: Cloth Config v8 8.2.88
+			cloth-basic-math: cloth-basic-math 0.6.1
+		collective: Collective 6.62
+		computercraft: CC: Restitched 1.101.2
+			io_netty_netty-codec-http: netty-codec-http 4.1.77.Final
+			org_squiddev_cobalt: Cobalt 0.5.5
+		configured: Configured 2.0.0
+		continuity: Continuity 2.0.2+1.19
+		controlling: Controlling For Fabric 10.0+7
+		cookingforblockheads: Cooking for Blockheads 13.3.2
+		cosmetic-armor: Cosmetic Armor 1.4.2
+		create: Create 0.5.1-b-build.1089+mc1.19.2
+			com_google_code_findbugs_jsr305: jsr305 3.0.2
+			flywheel: Flywheel 0.6.8.a-5
+			forge_tags: Porting Lib Tags 3.0
+			milk: Milk Lib 1.0.51
+				dripstone_fluid_lib: Dripstone Fluid Lib 2.0.1
+			porting_lib_accessors: Porting Lib Accessors 2.1.1038+1.19.2
+			porting_lib_base: Porting Lib Base 2.1.1038+1.19.2
+				porting_lib_lazy_registration: Porting Lib Lazy Register 2.1.1038+1.19.2
+				porting_lib_loot: Porting Lib Loot 2.1.1038+1.19.2
+				porting_lib_model_generators: Porting Lib Model Generators 2.1.1038+1.19.2
+				porting_lib_models: Porting Lib Models 2.1.1038+1.19.2
+			porting_lib_entity: Porting Lib Entity 2.1.1038+1.19.2
+				porting_lib_constants: Porting Lib Constants 2.1.1038+1.19.2
+			porting_lib_extensions: Porting Lib Extensions 2.1.1038+1.19.2
+			porting_lib_fake_players: Porting Lib Fake Players 2.1.1038+1.19.2
+			porting_lib_networking: Porting Lib Networking 2.1.1038+1.19.2
+			porting_lib_obj_loader: Porting Lib Obj Loader 2.1.1038+1.19.2
+				porting_lib_attributes: Porting Lib Attributes 2.1.1038+1.19.2
+				porting_lib_common: Porting Lib Common 2.1.1038+1.19.2
+				porting_lib_model_loader: Porting Lib Model Loader 2.1.1038+1.19.2
+			porting_lib_transfer: Porting Lib Transfer 2.1.1038+1.19.2
+			registrate-fabric: Registrate for Fabric 1.1.58-MC1.19.2
+		createdeco: Create Deco 1.3.3-1.19.2
+		croptopia: Croptopia 2.2.2
+			com_typesafe_config: config 1.4.1
+			io_leangen_geantyref_geantyref: geantyref 1.3.11
+			org_spongepowered_configurate-core: configurate-core 4.1.2
+			org_spongepowered_configurate-hocon: configurate-hocon 4.1.2
+		debugify: Debugify 2.8.0
+		deeperdarker: Deeper and Darker 1.1.6
+			customportalapi: Custom Portal Api 0.0.1-beta54-1.19
+			paragon: Paragon 3.0.2
+				com_moandjiezana_toml_toml4j: toml4j 0.7.2
+				org_yaml_snakeyaml: snakeyaml 1.27
+		diet: Diet 2.0.0-beta+1.19.2
+			spectrelib: SpectreLib 0.12.4+1.19.2
+		dimdoors: DimensionalDoors 5.0.2
+			com_flowpowered_flow-math: flow-math 1.0.3
+			com_github_dimensionaldevelopment_poly2tri_java: poly2tri.java 0.1.1
+			matrix: Matrix 1.0.0
+			org_jgrapht_jgrapht-core: jgrapht-core 1.1.0
+		dsurround: Dynamic Surroundings: Remastered Fabric Edition 0.1.1
+			org_openjdk_nashorn_nashorn-core: nashorn-core 15.3
+		entityculling: EntityCulling-Fabric 1.6.1-mc1.19.2
+		everycomp: Every Compat 1.19.2-2.4.12
+		expandeddelight: Expanded Delight 0.2.5.2
+		extraorigins: Extra Origins 1.19-2
+		extrasounds: ExtraSounds 2.3.1+1.19.2-1.19.1
+			advanced_runtime_resource_pack: Runtime Resource Pack 0.6.2
+			soundcategories: Sound Categories 1.2.4+1.19
+		fabric-api: Fabric API 0.76.0+1.19.2
+			fabric-api-base: Fabric API Base 0.4.15+8f4e8eb390
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.14+93d8cb8290
+			fabric-biome-api-v1: Fabric Biome API (v1) 9.1.1+16f1e31390
+			fabric-block-api-v1: Fabric Block API (v1) 1.0.2+e415d50e90
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.25+cafc6e8e90
+			fabric-client-tags-api-v1: Fabric Client Tags 1.0.5+b35fea8390
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.16+f71b366f90
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.1+413cbbc790
+			fabric-commands-v0: Fabric Commands (v0) 0.2.33+df3654b390
+			fabric-containers-v0: Fabric Containers (v0) 0.1.41+df3654b390
+			fabric-content-registries-v0: Fabric Content Registries (v0) 3.5.2+7c6cd14d90
+			fabric-convention-tags-v1: Fabric Convention Tags 1.3.0+4bc6e26290
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.8+aeb40ebe90
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 5.3.8+413cbbc790
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 2.1.35+0d0f210290
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.5.4+9244241690
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.4.34+562bff6e90
+			fabric-events-lifecycle-v0: Fabric Events Lifecycle (v0) 0.2.36+df3654b390
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.24+b6b6abb490
+			fabric-item-api-v1: Fabric Item API (v1) 1.6.6+b7d1888890
+			fabric-item-groups-v0: Fabric Item Groups (v0) 0.3.39+9244241690
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.25+5c4fce2890
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.23+df3654b390
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.2.4+1b46dc7890
+			fabric-loot-api-v2: Fabric Loot API (v2) 1.1.13+83a8659290
+			fabric-loot-tables-v1: Fabric Loot Tables (v1) 1.1.16+9e7660c690
+			fabric-message-api-v1: Fabric Message API (v1) 5.0.7+93d8cb8290
+			fabric-mining-level-api-v1: Fabric Mining Level API (v1) 2.1.24+33fbc73890
+			fabric-models-v0: Fabric Models (v0) 0.3.21+c6af733c90
+			fabric-networking-api-v1: Fabric Networking API (v1) 1.2.11+10eb22f490
+			fabric-networking-v0: Fabric Networking (v0) 0.3.28+df3654b390
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 4.2.2+d8ef690890
+			fabric-particles-v1: Fabric Particles (v1) 1.0.14+4d0d570390
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 1.0.1+413cbbc790
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 0.9.32+9244241690
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 1.2.1+1adbf27790
+			fabric-renderer-indigo: Fabric Renderer - Indigo 0.8.0+1adbf27790
+			fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.24+df3654b390
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.19+6e0787e690
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.0.11+4d0d570390
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.27+df3654b390
+			fabric-rendering-v1: Fabric Rendering (v1) 1.12.1+d8ef690890
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 2.1.2+aae9039d90
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 0.8.4+edbdcddb90
+			fabric-screen-api-v1: Fabric Screen API (v1) 1.0.32+4d0d570390
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.7+1cc24b1b90
+			fabric-sound-api-v1: Fabric Sound API (v1) 1.0.2+c4f28df590
+			fabric-textures-v0: Fabric Textures (v0) 1.0.24+aeb40ebe90
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 2.1.6+413cbbc790
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 1.3.3+08b73de490
+		fabric-language-kotlin: Fabric Language Kotlin 1.9.6+kotlin.1.8.22
+			org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 1.8.22
+			org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 1.8.22
+			org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 1.8.22
+			org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 1.8.22
+			org_jetbrains_kotlinx_atomicfu-jvm: atomicfu-jvm 0.21.0
+			org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.7.1
+			org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.7.1
+			org_jetbrains_kotlinx_kotlinx-datetime-jvm: kotlinx-datetime-jvm 0.4.0
+			org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: kotlinx-serialization-cbor-jvm 1.5.1
+			org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.5.1
+			org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.5.1
+		fabricloader: Fabric Loader 0.14.21
+		farmersdelight: Farmer's Delight 1.19.2-1.3.9
+		fastload: Fast Load 3.4.0
+			conditional-mixin: conditional mixin 0.3.2
+			fastload-119-0-1-2-compat: Fastload 1.19-0-1-2 Compatibility 3.4.0
+			fastload-1193-compat: Fastload 1.19.3 Compatibility 3.4.0
+			fastload-1194-compat: Fastload 1.19.4 Compat 3.4.0
+			fastload_fapi_forward: Fastload Fabric-api Forwarding 1.0.2
+		ferritecore: FerriteCore 5.0.3
+		friendsandfoes: Friends&Foes 1.8.4
+			com_github_llamalad7_mixinextras: MixinExtras 0.2.0-beta.8
+		fusion: Fusion 1.0.3
+		geckolib3: Geckolib 3.1.40
+		indium: Indium 1.0.9+mc1.19.2
+		iris: Iris 1.6.4
+			io_github_douira_glsl-transformer: glsl-transformer 2.0.0-pre13
+			org_anarres_jcpp: jcpp 1.4.14
+			org_antlr_antlr4-runtime: antlr4-runtime 4.11.1
+		jade: Jade 8.7.3
+		java: OpenJDK 64-Bit Server VM 17
+		jei: Just Enough Items 11.6.0.1016
+		journeymap: Journeymap 5.9.7
+			journeymap-api-fabric: JourneyMap API 1.19.1-1.9-fabric-SNAPSHOT
+		keybindsgalore: Keybinds Galore 1.0+1.19
+		kubejs: KubeJS 1902.6.0-build.142
+		lazydfu: LazyDFU 0.1.3
+		lithium: Lithium 0.11.1
+		luggage: Luggage 1.19-1.5.2
+		minecraft: Minecraft 1.19.2
+		modmenu: Mod Menu 4.2.0-beta.2
+		moonlight: Moonlight 1.19.2-2.2.43
+		naturalist: Naturalist 3.0.3a
+		naturescompass: Nature's Compass 1.19.2-2.1.0-fabric
+		no_tutorial_toast: No Tutorial Toasts 1.0.0
+		nochatreports: No Chat Reports 1.19.2-v1.13.12
+		norecipebook: NoRecipeBook 2.2+1.19
+		noreportbutton: No Report Button 1.2.1
+		oceansdelight: Ocean's Delight 1.0.0
+		origins: Origins 1.7.1
+			apoli: Apoli 2.6.1
+				additionalentityattributes: Additionalentityattributes 1.0.0+1.19
+				calio: Calio 1.7.0
+				playerabilitylib: Pal 1.6.0
+		owo: oωo 0.9.3+1.19
+			blue_endless_jankson: jankson 1.2.1
+		oxidized: Oxidized 1.7.2
+		patchouli: Patchouli 1.19.2-77-FABRIC
+		pehkui: Pehkui 3.7.6+1.14.4-1.20.1
+			kanos_config: Kanos Config 0.4.1+1.14.4-1.19.4
+		placementpog: Bridging Mod 1.2.0
+		player-animator: Player Animator 1.0.2
+		rechiseled: Rechiseled 1.1.0-b
+		reeses-sodium-options: Reese's Sodium Options 1.4.9+mc1.19.2-build.67
+		resourcefulconfig: Resourcefulconfig 1.0.20
+		resourcefullib: Resourceful Lib 1.1.24
+		rhino: Rhino 1902.2.2-build.268
+		seasonhud: SeasonHUD 1.1.0
+		seasons: Fabric Seasons 2.2.1+1.19
+		seasonscroptopiacompat: Fabric Seasons: Croptopia Compat 1.0-2.2.2
+		seasonsdelightcompat: Fabric Seasons: Delight Compat 1.0-1.3.9
+		seasonsextras: Fabric Seasons: Extras 1.2-BETA+1.19
+		seasonsterraformerscompat: Fabric Seasons: Terraformers Compat 1.0
+		seasonsterralithcompat: Fabric Seasons: Terralith Compat 1.0-2.3.7
+		sliceanddice: Create Slice & Dice 2.2.1
+			forgeconfigapiport: Forge Config API Port 4.2.11
+				com_electronwill_night-config_core: core 3.6.5
+				com_electronwill_night-config_toml: toml 3.6.5
+		smartbrainlib: SmartBrainLib 1.9
+		sodium: Sodium 0.4.4+build.18
+			org_joml_joml: joml 1.10.4
+		sodium-extra: Sodium Extra 0.4.16+mc1.19.2-build.90
+			caffeineconfig: CaffeineConfig 1.0.0+1.17
+		sound_physics_remastered: Sound Physics Remastered 1.19.2-1.0.18
+		starlight: Starlight 1.1.1+fabric.ae22326
+		starterkit: Starter Kit 5.2
+		supermartijn642configlib: SuperMartijn642's Config Lib 1.1.6
+		supermartijn642corelib: SuperMartijn642's Core Lib 1.1.10+a
+		terrablender: TerraBlender 2.0.1.166
+		terrestria: Terrestria 5.0.11
+			terraform-biome-remapper-api-v1: Terraform Biome Remapper API (v1) 4.2.0
+			terraform-config-api-v1: Terraform Config API (v1) 4.2.0
+			terraform-dirt-api-v1: Terraform Dirt API (v1) 4.2.0
+			terraform-shapes-api-v1: Terraform Shapes API (v1) 4.2.0
+			terraform-surfaces-api-v1: Terraform Surfaces API (v1) 4.2.0
+			terraform-tree-api-v1: Terraform Tree API (v1) 4.2.0
+			terraform-wood-api-v1: Terraform Wood API (v1) 4.2.0
+			terrestria-client: Terrestria: Client 5.0.11
+			terrestria-common: Terrestria: Common 5.0.11
+			terrestria-worldgen: Terrestria: World Generation 5.0.11
+		touhouorigins: Touhou Origins 0.8.3-1.19.2
+			apugli: Apugli 1.11.2+1.19-fabric
+				midnightlib: MidnightLib 1.0.0
+		travelersbackpack: Traveler's Backpack 1.19.2-8.2.25
+		traverse: Traverse 6.0.8
+			traverse-client: Traverse: Client 6.0.8
+			traverse-common: Traverse: Common 6.0.8
+			traverse-worldgen: Traverse: World Generation 6.0.8
+		treechop: HT's TreeChop 0.17.6
+		trinkets: Trinkets 3.4.2
+		twilightforest: The Twilight Forest 4.2.357
+			here-be-no-dragons: Here be no Dragons! 1.0.0
+			javax_annotation_javax_annotation-api: javax.annotation-api 1.3.2
+			mm: Manningham Mills 2.3
+			porting_lib: Porting Lib 2.1.727+1.19.2
+				serialization_hooks: Serialization Hooks 0.3.26
+		valkyrienskies: Valkyrien Skies 2 2.2.0-beta.2
+		voicechat: Simple Voice Chat 1.19.2-2.4.13
+		vs_eureka: VS Eureka Mod 1.2.0-beta.1
+		yungsapi: YUNG's API 1.19.2-Fabric-3.8.9
+			org_javassist_javassist: javassist 3.28.0-GA
+	Loaded Shaderpack: MakeUp-UltraFast-8.8e.zip
+		Profile: medium (+0 options changed by user)
+	NEC status: No NEC detected
+	Flywheel Backend: Off
+	Launched Version: 1.19.2
+	Backend library: LWJGL version 3.3.1 SNAPSHOT
+	Backend API: NVIDIA GeForce GTX 1070/PCIe/SSE2 GL version 3.2.0 NVIDIA 531.68, NVIDIA Corporation
+	Window size: 1600x900
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'fabric'; Server brand changed to 'fabric'
+	Type: Integrated Server (map_client.txt)
+	Graphics mode: fancy
+	Resource Packs: vanilla, file/GAFpack custom splashes.zip (incompatible), Fabric Mods, Seasonal Lush Caves
+	Current Language: English (US)
+	CPU: 12x AMD Ryzen 5 5600X 6-Core Processor 
+	Server Running: true
+	Player Count: 1 / 8; [class_3222['validpoint'/1, l='ServerLevel[New World]', x=-136.90, y=6.00, z=78.04]]
+	Data Packs: vanilla, Fabric Mods, dimdoors/default (incompatible), dimdoors/classic (incompatible), Everycomp Generated Pack
+	World Generation: Stable

@@ -1,0 +1,14 @@
+name = "Starter Kit"
+filename = "starterkit-1.19.2-5.2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/6L3ydNi8/versions/pLNsi6nl/starterkit-1.19.2-5.2.jar"
+hash-format = "sha512"
+hash = "287539d58f4381f3bd6e260e3d560efe2794228f4bdbdefda14bbe167ef35c82a8ac6159899936d3cc3ff32797f8e80f1740554be82956590b1765f3974358b8"
+
+[update]
+[update.modrinth]
+mod-id = "6L3ydNi8"
+version = "pLNsi6nl"

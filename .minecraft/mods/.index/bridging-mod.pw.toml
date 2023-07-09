@@ -1,0 +1,14 @@
+name = "Bridging Mod"
+filename = "BridgingMod-1.19.2-1.2.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/lO3s8hjs/versions/DQzWbzCf/BridgingMod-1.19.2-1.2.0.jar"
+hash-format = "sha512"
+hash = "be365ff78937527589c61b47481e4f5e9658d3663b87e3b3a7ae7e7a19437fc4d236173adbdb968a5e90b0e09b125d616e2b567a5bb156d62d0be2fe8b3dbf49"
+
+[update]
+[update.modrinth]
+mod-id = "lO3s8hjs"
+version = "DQzWbzCf"

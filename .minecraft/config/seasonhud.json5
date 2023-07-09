@@ -1,0 +1,20 @@
+{
+	/* Enable the mod? 
+	    (true/false)
+	*/
+	"enableMod": true,
+	// Require the Calender item to be in the players inventory to show the HUD? \n (true/false)
+	"needCalendar": false,
+	/* The horizontal offset of the HUD when no minimap is installed (in pixels)
+	    Default is 0
+	*/
+	"hudX": 0,
+	// The vertical offset of the HUD when no minimap is installed (in pixels)\n Default is 0
+	"hudY": 0,
+	/* Part of the screen to display the HUD when no minimap is installed
+	    Default is TOP_LEFT
+	*/
+	"hudLocation": "TOP_LEFT",
+	// Show the current day of the season/sub-season? \n (true/false)
+	"showDay": true
+}

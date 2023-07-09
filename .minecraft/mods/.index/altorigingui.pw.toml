@@ -1,0 +1,14 @@
+name = "Alternate Origin GUI"
+filename = "altorigingui-1.19.2-1.0.0.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/ldWHqZwQ/versions/cJrp068G/altorigingui-1.19.2-1.0.0.jar"
+hash-format = "sha512"
+hash = "9a1b53a1adc1c5d176e7c9b088e7ab76069b18964cf3802906d184a58d37a93ef7321bf538a55573c204bb3955fb13324daf488be52f333b599a6d00ea04cf38"
+
+[update]
+[update.modrinth]
+mod-id = "ldWHqZwQ"
+version = "cJrp068G"

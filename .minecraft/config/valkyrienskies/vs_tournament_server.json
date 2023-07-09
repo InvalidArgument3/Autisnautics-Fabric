@@ -1,0 +1,11 @@
+{
+  "SpinnerSpeed" : 5000.0,
+  "BalloonPower" : 3000.0,
+  "GyroPower" : 100000.0,
+  "ThrusterSpeed" : 10000.0,
+  "diagonals" : true,
+  "ballastWeight" : 10000.0,
+  "ballastNoWeight" : 10.0,
+  "pulseGunForce" : 500.0,
+  "$schema" : "schemas/vs_tournament_server.schema.json"
+}

@@ -1,0 +1,14 @@
+name = "No Report Button"
+filename = "no-report-button-1.2.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/9WJeSpTH/versions/jjouRxuG/no-report-button-1.2.1.jar"
+hash-format = "sha512"
+hash = "f6172029774f5cb6186c92e8c28b8393ce7231d7f8a4d888a84b3d7208a5dcd1cae4d81352868d4858abb439688a2c096737974c0c1cbd893aa9cf1e4f2825a5"
+
+[update]
+[update.modrinth]
+mod-id = "9WJeSpTH"
+version = "jjouRxuG"

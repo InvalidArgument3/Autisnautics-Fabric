@@ -1,0 +1,67 @@
+{
+  "types": {
+    "wood_type": {
+      "botania.livingwood": true,
+      "botania.dreamwood": true,
+      "deeperdarker.echo": true,
+      "dimdoors.driftwood": true,
+      "terrestria.redwood": true,
+      "terrestria.hemlock": true,
+      "terrestria.rubber": true,
+      "terrestria.cypress": true,
+      "terrestria.willow": true,
+      "terrestria.japanese_maple": true,
+      "terrestria.rainbow_eucalyptus": true,
+      "terrestria.sakura": true,
+      "terrestria.yucca_palm": true,
+      "traverse.fir": true,
+      "twilightforest.twilight_oak": true,
+      "twilightforest.canopy": true,
+      "twilightforest.mangrove": true,
+      "twilightforest.dark": true,
+      "twilightforest.time": true,
+      "twilightforest.transformation": true,
+      "twilightforest.mining": true,
+      "twilightforest.sorting": true
+    },
+    "leaves_type": {
+      "twilightforest.beanstalk": true,
+      "twilightforest.thorn": true,
+      "twilightforest.twilight_oak": true,
+      "twilightforest.canopy": true,
+      "twilightforest.mangrove": true,
+      "twilightforest.dark": true,
+      "twilightforest.rainbow_oak": true,
+      "twilightforest.time": true,
+      "twilightforest.transformation": true,
+      "twilightforest.mining": true,
+      "twilightforest.sorting": true,
+      "croptopia.cinnamon": true,
+      "deeperdarker.echo": true,
+      "dimdoors.driftwood": true,
+      "terrestria.rubber": true,
+      "terrestria.cypress": true,
+      "terrestria.willow": true,
+      "terrestria.japanese_maple": true,
+      "terrestria.rainbow_eucalyptus": true,
+      "terrestria.sakura": true,
+      "terrestria.yucca_palm": true,
+      "terrestria.japanese_maple_shrub": true,
+      "terrestria.dark_japanese_maple": true,
+      "terrestria.jungle_palm": true,
+      "traverse.red_autumnal": true,
+      "traverse.brown_autumnal": true,
+      "traverse.orange_autumnal": true,
+      "traverse.yellow_autumnal": true,
+      "traverse.fir": true
+    }
+  },
+  "entries": {
+    "wood_type": {
+      "friendsandfoes.beehive": true,
+      "create.window_pane": true,
+      "create.window": true
+    },
+    "leaves_type": {}
+  }
+}

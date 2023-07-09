@@ -1,0 +1,14 @@
+name = "SmartBrainLib (Forge/Fabric/Quilt)"
+filename = "SmartBrainLib-fabric-1.19.2-1.9.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "0cf9965a144d6dd232287a9d38fe58f30c1b9ebf"
+
+[update]
+[update.curseforge]
+file-id = 4458564
+project-id = 661293

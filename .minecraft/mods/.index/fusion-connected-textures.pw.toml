@@ -1,0 +1,14 @@
+name = "Fusion"
+filename = "fusion-1.0.3-fabric-mc1.19.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "f14f3114eb13f70301acdf929459a158ceb3c345"
+
+[update]
+[update.curseforge]
+file-id = 4625139
+project-id = 854949
