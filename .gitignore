@@ -1,5 +1,7 @@
 #ignore everything
 *
+.minecraft/config/*.properties
+.minecraft/config/everycomp-wood_types.json
 
 #..except these!
 !.gitignore
@@ -12,5 +14,5 @@
 !.minecraft/patchouli_books/*
 !.minecraft/resourcepacks/*
 !.minecraft/shaderpacks/*
-*.properties
-.minecraft/config/everycomp-wood_types.json
+
+
