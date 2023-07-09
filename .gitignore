@@ -22,3 +22,4 @@
 .minecraft/config/*.properties
 .minecraft/config/everycomp-wood_types.json
 
+*.properties
