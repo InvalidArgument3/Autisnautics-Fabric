@@ -6,7 +6,6 @@
 !.gitignore
 !.instance.cfg
 !mmc-pack.json
-!.minecraft/config/*
 !.minecraft/defaultconfigs/*
 !.minecraft/mods/*
 !.minecraft/kubejs/*
