@@ -1,7 +1,6 @@
 #ignore everything
 *
-.minecraft/config/*.properties
-.minecraft/config/everycomp-wood_types.json
+
 
 #..except these!
 !.gitignore
@@ -15,4 +14,11 @@
 !.minecraft/resourcepacks/*
 !.minecraft/shaderpacks/*
 
+
+
+
+
+# okay, now ignore these things.
+.minecraft/config/*.properties
+.minecraft/config/everycomp-wood_types.json
 
