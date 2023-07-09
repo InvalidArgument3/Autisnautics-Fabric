@@ -23,3 +23,10 @@
 .minecraft/config/everycomp-wood_types.json
 
 *.properties
+.minecraft/config/sound_physics_remastered/occlusion.properties
+*.properties
+.minecraft/config/sound_physics_remastered/soundphysics.properties
+.minecraft/config/iris.properties
+.minecraft/config/indium-renderer.properties
+.minecraft/config/fastload.properties
+.minecraft/config/fabric/indigo-renderer.properties
