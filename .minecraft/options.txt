@@ -39,7 +39,7 @@ biomeBlendRadius:2
 renderClouds:"true"
 resourcePacks:["vanilla","file/GAFpack custom splashes.zip","Fabric Mods","Seasonal Lush Caves"]
 incompatibleResourcePacks:["file/GAFpack custom splashes.zip"]
-lastServer:join.invalserb.tk
+lastServer:192.168.1.3
 lang:en_us
 soundDevice:""
 chatVisibility:0

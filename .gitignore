@@ -1,16 +1,19 @@
-#ignore everything
-*
+.minecraft/.fabric/*
+.minecraft/cachedImages/*
+.minecraft/data/*
+.minecraft/journeymap/*
+.minecraft/local/*
+.minecraft/localconfigs/*
+.minecraft/logs/*
+.minecraft/moddata/*
+.minecraft/saves/*
+.minecraft/schematics/*
 
 
-#..except these!
-!.gitignore
-!.instance.cfg
-!mmc-pack.json
-!.minecraft/config/*
-!.minecraft/automodpack/*
-!.minecraft/defaultconfigs/*
-!.minecraft/mods/*
-!.minecraft/kubejs/*
-!.minecraft/patchouli_books/*
-!.minecraft/resourcepacks/*
-!.minecraft/shaderpacks/*
+
+
+
+
+*.ser
+.minecraft/config/voicechat/username-cache.json
+.minecraft/usercache.json

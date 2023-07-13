@@ -1,0 +1,14 @@
+name = "AutoModpack"
+filename = "automodpack-mc1.19.2-fabric-3.3.8.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/k68glP2e/versions/6Qzd90Z0/automodpack-mc1.19.2-fabric-3.3.8.jar"
+hash-format = "sha512"
+hash = "e22f6507d72c71aa386c08df4f2ad1b4393db1ae73080a39f9a565a13000f1d11e15a39ea754e0f514cf0e7c45983c6b80a434e3ddd159d6797f196e83050370"
+
+[update]
+[update.modrinth]
+mod-id = "k68glP2e"
+version = "6Qzd90Z0"
