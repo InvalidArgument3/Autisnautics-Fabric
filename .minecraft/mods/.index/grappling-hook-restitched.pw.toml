@@ -1,0 +1,14 @@
+name = "Grappling Hook: Restitched"
+filename = "grapplemod-1.19.2-v1.6.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "e1154281a86d24b1280a9758003e5ccc26110db2"
+
+[update]
+[update.curseforge]
+file-id = 4544286
+project-id = 820533
