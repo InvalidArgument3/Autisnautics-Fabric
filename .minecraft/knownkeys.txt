@@ -139,3 +139,7 @@ key.voice_chat_adjust_volumes
 iris.keybind.reload
 iris.keybind.toggleShaders
 iris.keybind.shaderPackSelection
+key.bewitchment.transformation_ability
+gui.xaero_pac_key_open_menu
+zoomify.key.zoom
+zoomify.key.zoom.secondary

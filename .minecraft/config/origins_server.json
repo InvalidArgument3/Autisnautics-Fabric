@@ -170,6 +170,14 @@
       "touhouorigins:aspect_of_nature": true,
       "touhouorigins:fodder": true
     },
+    "extraorigins:floran": {
+      "enabled": true,
+      "extraorigins:green_thumb": true,
+      "extraorigins:photosynthesis": true,
+      "extraorigins:absorbing": true,
+      "extraorigins:flammable": true,
+      "extraorigins:nectarivore": true
+    },
     "touhouorigins:vengeful_spirit": {
       "enabled": true,
       "touhouorigins:vengeful_harvest": true,
@@ -200,6 +208,28 @@
       "touhouorigins:flight_friendly_body": true,
       "touhouorigins:reporting_above_clouds": true
     },
+    "animated_armor:animated_armor": {
+      "enabled": true,
+      "animated_armor:fixed_armor": true,
+      "animated_armor:armor_block": true,
+      "animated_armor:steel_constitution": true,
+      "animated_armor:repair": true,
+      "animated_armor:decoy": true,
+      "animated_armor:armor_state": true,
+      "animated_armor:armor_buffs": true,
+      "animated_armor:deflective_plating": true,
+      "animated_armor:invisible": true,
+      "animated_armor:construct": true,
+      "animated_armor:sink": true,
+      "animated_armor:slow": true,
+      "animated_armor:restless": true,
+      "animated_armor:no_shields": true,
+      "animated_armor:immune": true,
+      "animated_armor:freeze_immune": true,
+      "animated_armor:prevent_food": true,
+      "animated_armor:step_sound": true,
+      "animated_armor:tooltips": true
+    },
     "touhouorigins:celestial_immortal": {
       "enabled": true,
       "touhouorigins:divine_luck": true,
@@ -207,30 +237,25 @@
       "touhouorigins:more_hunger_points": true,
       "touhouorigins:immortal": true
     },
-    "touhoublessings:regular": {
-      "enabled": true
-    },
     "touhouorigins:tsukumogami": {
       "enabled": true,
       "touhouorigins:choose_your_tool": true,
       "touhouorigins:artisan_of_animacy": true,
       "touhouorigins:little_smithy": true
     },
-    "touhoublessings:knowledge": {
-      "enabled": true,
-      "touhoublessings:adept": true
-    },
-    "touhoublessings:moriya": {
-      "enabled": true,
-      "touhoublessings:wind_protection": true,
-      "touhoublessings:miracle": true
-    },
     "origins:human": {
       "enabled": true
     },
-    "touhoublessings:scarlet": {
+    "extraorigins:piglin": {
       "enabled": true,
-      "touhoublessings:spacetime_manipulation": true
+      "extraorigins:all_that_glitters": true,
+      "extraorigins:piglin_neutrality": true,
+      "extraorigins:crossbow_master": true,
+      "origins:nether_spawn": true,
+      "extraorigins:homesick": true,
+      "origins:carnivore": true,
+      "extraorigins:flabby": true,
+      "extraorigins:soul_spooked": true
     },
     "origins:shulk": {
       "enabled": true,
@@ -290,80 +315,6 @@
       "origins:fragile": true,
       "origins:arthropod": true
     },
-    "touhoublessings:permadeath": {
-      "enabled": true,
-      "touhoublessings:one_life": true
-    },
-    "touhouorigins:haniwa": {
-      "enabled": true,
-      "touhouorigins:warrior_of_an_old_age": true,
-      "touhouorigins:quick_patch_up_job": true,
-      "touhouorigins:terracotta_skin": true,
-      "touhouorigins:fragile_structure": true
-    },
-    "touhoublessings:hakurei": {
-      "enabled": true,
-      "touhoublessings:youkai_buster": true
-    },
-    "touhoublessings:beast_spirits": {
-      "enabled": true,
-      "touhoublessings:husbandry_master": true,
-      "touhoublessings:sturdy_beasts": true,
-      "touhoublessings:animal_empath": true
-    },
-    "touhoublessings:high_stakes": {
-      "enabled": true,
-      "touhoublessings:glass_cannon": true
-    },
-    "touhouorigins:tsukumogami_chochin": {
-      "enabled": true,
-      "touhouorigins:tsukumogami_chochin": true
-    },
-    "touhouorigins:tsukumogami_menreiki": {
-      "enabled": true,
-      "touhouorigins:tsukumogami_menreiki": true
-    },
-    "extraorigins:floran": {
-      "enabled": true,
-      "extraorigins:green_thumb": true,
-      "extraorigins:photosynthesis": true,
-      "extraorigins:absorbing": true,
-      "extraorigins:flammable": true,
-      "extraorigins:nectarivore": true
-    },
-    "animated_armor:animated_armor": {
-      "enabled": true,
-      "animated_armor:fixed_armor": true,
-      "animated_armor:armor_block": true,
-      "animated_armor:steel_constitution": true,
-      "animated_armor:repair": true,
-      "animated_armor:decoy": true,
-      "animated_armor:armor_state": true,
-      "animated_armor:armor_buffs": true,
-      "animated_armor:deflective_plating": true,
-      "animated_armor:invisible": true,
-      "animated_armor:construct": true,
-      "animated_armor:sink": true,
-      "animated_armor:slow": true,
-      "animated_armor:restless": true,
-      "animated_armor:no_shields": true,
-      "animated_armor:immune": true,
-      "animated_armor:freeze_immune": true,
-      "animated_armor:prevent_food": true,
-      "animated_armor:step_sound": true,
-      "animated_armor:tooltips": true
-    },
-    "extraorigins:piglin": {
-      "enabled": true,
-      "extraorigins:all_that_glitters": true,
-      "extraorigins:piglin_neutrality": true,
-      "extraorigins:crossbow_master": true,
-      "origins:nether_spawn": true,
-      "extraorigins:homesick": true,
-      "origins:carnivore": true,
-      "extraorigins:flabby": true,
-      "extraorigins:soul_spooked": true
-    },
     "extraorigins:inchling": {
       "enabled": true,
       "extraorigins:bite_sized": true,
@@ -372,12 +323,27 @@
       "origins:climbing": true,
       "extraorigins:jockey": true
     },
+    "touhouorigins:haniwa": {
+      "enabled": true,
+      "touhouorigins:warrior_of_an_old_age": true,
+      "touhouorigins:quick_patch_up_job": true,
+      "touhouorigins:terracotta_skin": true,
+      "touhouorigins:fragile_structure": true
+    },
     "extraorigins:truffle": {
       "enabled": true,
       "extraorigins:magic_spores": true,
       "extraorigins:infestation": true,
       "extraorigins:rooted": true,
       "extraorigins:decomposition": true
+    },
+    "touhouorigins:tsukumogami_chochin": {
+      "enabled": true,
+      "touhouorigins:tsukumogami_chochin": true
+    },
+    "touhouorigins:tsukumogami_menreiki": {
+      "enabled": true,
+      "touhouorigins:tsukumogami_menreiki": true
     }
   }
 }

@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "blacklist_item_id_regex": "pickaxe",
+  "blacklist_item_id_regex": "pickaxe|farmersdelight",
   "fallback_compatibility": [
     {
       "item_id_regex": "claymore|great_sword|greatsword",
       "weapon_attributes": "bettercombat:claymore"
     },
     {
-      "item_id_regex": "great_hammer|greathammer|war_hammer|warhammer",
+      "item_id_regex": "great_hammer|greathammer|war_hammer|warhammer|maul",
       "weapon_attributes": "bettercombat:hammer"
     },
     {
@@ -27,8 +27,12 @@
       "weapon_attributes": "bettercombat:glaive"
     },
     {
-      "item_id_regex": "spear|lance",
+      "item_id_regex": "spear",
       "weapon_attributes": "bettercombat:spear"
+    },
+    {
+      "item_id_regex": "lance",
+      "weapon_attributes": "bettercombat:lance"
     },
     {
       "item_id_regex": "anchor",
@@ -71,7 +75,7 @@
       "weapon_attributes": "bettercombat:dagger"
     },
     {
-      "item_id_regex": "staff|wand|sceptre",
+      "item_id_regex": "staff|wand|sceptre|stave|rod",
       "weapon_attributes": "bettercombat:wand"
     },
     {

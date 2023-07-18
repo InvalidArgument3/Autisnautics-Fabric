@@ -1,4 +1,5 @@
 {
   "renderDebugText" : false,
+  "recommendSlugsInMcCommands" : true,
   "$schema" : "schemas/vs_client.schema.json"
 }

@@ -5,7 +5,7 @@
   "ignoredRecipes": [],
   "defaultDuplicateRules": {
     "ignoredFields": [
-      "conditions",
+      "fabric:conditions",
       "group"
     ],
     "rules": {
@@ -18,8 +18,8 @@
   "overrideDuplicateRules": {
     "minecraft:crafting_shaped": {
       "ignoredFields": [
+        "fabric:conditions",
         "pattern",
-        "conditions",
         "key",
         "group"
       ],
