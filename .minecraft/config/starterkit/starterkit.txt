@@ -4,7 +4,7 @@
 'legs' : '',
 'feet' : '',
 0 : '{Count:1b,id:"patchouli:guide_book",tag:{"patchouli:book":"patchouli:autisnautics_guide"}}',
-1 : '',
+1 : '{Count:1b,id:"akashictomeoftools:akashic_tome",tag:{AkashicItems:[{Count:1b,id:"modern_industrialization:guidebook"},{Count:1b,id:"croptopia:guide"},{Count:1b,id:"bewitchment:book_of_shadows"},{Count:1b,id:"tis3d:manual"}],SelectedPos:-1}}',
 2 : '',
 3 : '',
 4 : '',
