@@ -1,5 +1,21 @@
 {
   "types": {
+    "wood_type": {
+      "bewitchment.juniper": true,
+      "bewitchment.cypress": true,
+      "bewitchment.elder": true,
+      "bewitchment.dragons_blood": true,
+      "botania.livingwood": true,
+      "botania.dreamwood": true,
+      "twilightforest.twilight_oak": true,
+      "twilightforest.canopy": true,
+      "twilightforest.mangrove": true,
+      "twilightforest.dark": true,
+      "twilightforest.time": true,
+      "twilightforest.transformation": true,
+      "twilightforest.mining": true,
+      "twilightforest.sorting": true
+    },
     "leaves_type": {
       "twilightforest.beanstalk": true,
       "twilightforest.thorn": true,
@@ -17,30 +33,14 @@
       "bewitchment.elder": true,
       "bewitchment.dragons_blood": true,
       "croptopia.cinnamon": true
-    },
-    "wood_type": {
-      "bewitchment.juniper": true,
-      "bewitchment.cypress": true,
-      "bewitchment.elder": true,
-      "bewitchment.dragons_blood": true,
-      "botania.livingwood": true,
-      "botania.dreamwood": true,
-      "twilightforest.twilight_oak": true,
-      "twilightforest.canopy": true,
-      "twilightforest.mangrove": true,
-      "twilightforest.dark": true,
-      "twilightforest.time": true,
-      "twilightforest.transformation": true,
-      "twilightforest.mining": true,
-      "twilightforest.sorting": true
     }
   },
   "entries": {
-    "leaves_type": {},
     "wood_type": {
       "friendsandfoes.beehive": true,
       "create.window_pane": true,
       "create.window": true
-    }
+    },
+    "leaves_type": {}
   }
 }

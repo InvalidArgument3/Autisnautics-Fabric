@@ -5,7 +5,9 @@
     "modern_industrialization:book": {
       "viewedEntries": [
         "modern_industrialization:steam_age/steam_machines",
-        "modern_industrialization:lategame/fusion_reactor"
+        "modern_industrialization:lategame/fusion_reactor",
+        "modern_industrialization:introduction/introduction",
+        "modern_industrialization:steam_age/steel"
       ],
       "bookmarks": [],
       "completedManualQuests": []
