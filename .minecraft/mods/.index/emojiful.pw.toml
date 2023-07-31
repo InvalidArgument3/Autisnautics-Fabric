@@ -1,0 +1,14 @@
+name = "Emojiful"
+filename = "Emojiful-Fabric-1.19.2-4.0.4.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "8c669e86fbbcd6fdb64b78b247c707c0a927ba60"
+
+[update]
+[update.curseforge]
+file-id = 4671757
+project-id = 284324

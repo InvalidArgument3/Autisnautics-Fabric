@@ -1,0 +1,14 @@
+name = "Ore Vein Generation"
+filename = "OreVeins-0.8.0+1.19.2.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "3d7da1c7bf49c24623f494092534d53c21440f5b"
+
+[update]
+[update.curseforge]
+file-id = 4573324
+project-id = 776109

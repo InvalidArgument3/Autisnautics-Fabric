@@ -1,0 +1,14 @@
+name = "Carry On"
+filename = "carryon-fabric-1.19.2-2.1.0.20.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/joEfVgkn/versions/nc5Z9l3C/carryon-fabric-1.19.2-2.1.0.20.jar"
+hash-format = "sha512"
+hash = "fcc9c5c5ab4b424f93404bb85afcd4ed2e3c9ede0cd4ec24b9ca6873d52620761480bd615645af54b2e51bced011333b011b48a8a0b161ce149d41281c5ac374"
+
+[update]
+[update.modrinth]
+mod-id = "joEfVgkn"
+version = "nc5Z9l3C"

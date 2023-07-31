@@ -9,8 +9,8 @@
 .minecraft/moddata/*
 .minecraft/saves/*
 .minecraft/schematics/*
-
-
+.minecraft/emojiful/*
+.minecraft/ModTranslations/*
 
 
 
@@ -18,3 +18,4 @@
 *.ser
 .minecraft/config/voicechat/username-cache.json
 .minecraft/usercache.json
+

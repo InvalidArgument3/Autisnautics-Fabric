@@ -1,5 +1,23 @@
 {
   "bookGuiScale": 0,
   "clickedVisualize": false,
-  "bookData": {}
+  "bookData": {
+    "modern_industrialization:book": {
+      "viewedEntries": [
+        "modern_industrialization:steam_age/steam_machines",
+        "modern_industrialization:lategame/fusion_reactor"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "tr-patchouli:guide": {
+      "viewedEntries": [
+        "tr-patchouli:start/rubber_tree",
+        "tr-patchouli:start/solar_panel",
+        "tr-patchouli:start/tier1_tools"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
 }
