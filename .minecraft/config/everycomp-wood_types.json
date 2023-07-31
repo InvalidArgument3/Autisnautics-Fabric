@@ -16,8 +16,7 @@
       "bewitchment.cypress": true,
       "bewitchment.elder": true,
       "bewitchment.dragons_blood": true,
-      "croptopia.cinnamon": true,
-      "dimdoors.driftwood": true
+      "croptopia.cinnamon": true
     },
     "wood_type": {
       "bewitchment.juniper": true,
@@ -26,7 +25,6 @@
       "bewitchment.dragons_blood": true,
       "botania.livingwood": true,
       "botania.dreamwood": true,
-      "dimdoors.driftwood": true,
       "twilightforest.twilight_oak": true,
       "twilightforest.canopy": true,
       "twilightforest.mangrove": true,

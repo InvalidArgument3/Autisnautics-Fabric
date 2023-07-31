@@ -1,14 +1,14 @@
 name = "Packet Auth"
-filename = "PacketAuthFabricQuilt-1.5_1.19-1.19.2.jar"
+filename = "PacketAuthFabricQuilt-1.5.2_1.19-1.19.2.jar"
 side = "both"
 
 [download]
 mode = "url"
-url = "https://cdn.modrinth.com/data/7d6mfXL5/versions/E4ukw4EW/PacketAuthFabricQuilt-1.5_1.19-1.19.2.jar"
+url = "https://cdn.modrinth.com/data/7d6mfXL5/versions/A5F4lhnn/PacketAuthFabricQuilt-1.5.2_1.19-1.19.2.jar"
 hash-format = "sha512"
-hash = "c6301bae7d859174a620911f28f9fece3d5a61cda6f89957ee0adf4abce539e19141ce80dae5eae45d5e3ac027be4606fb80fc2b351c2e42c0a6f492941d6fde"
+hash = "27874b65d8809e05312f78db49e408d8622357e5ce7e3eb239419083eab75d30c8a7d41c76dbd7ba9b53e0151eea3d3b16f68dbdd666e5a36194c56da35edcb6"
 
 [update]
 [update.modrinth]
 mod-id = "7d6mfXL5"
-version = "E4ukw4EW"
+version = "A5F4lhnn"
