@@ -1,7 +1,7 @@
 blacklistedOres = ["salt"]
 enableNoEmiMessage = true
 spawnWithGuideBook = false
-respawnWithGuideBook = true
+respawnWithGuideBook = false
 disableFuelTooltips = false
 disableItemTagTooltips = false
 newVersionMessage = true
