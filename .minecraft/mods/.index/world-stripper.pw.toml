@@ -1,0 +1,14 @@
+name = "World Stripper"
+filename = "World+Stripper-1.19-3.2.2-Fabric.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/4jjTCjk3/versions/u5KQQJRx/World%2BStripper-1.19-3.2.2-Fabric.jar"
+hash-format = "sha512"
+hash = "71a7753b2569a8f420678bdbbc07c3d6b888a6349cdfd2b540acd806b83ae3d82e28a4d1d33dc03f3db9edaa0d985d65d5cb4eb53dc0250d4700309adc423417"
+
+[update]
+[update.modrinth]
+mod-id = "4jjTCjk3"
+version = "u5KQQJRx"

@@ -7,6 +7,7 @@
       "bewitchment.dragons_blood": true,
       "botania.livingwood": true,
       "botania.dreamwood": true,
+      "techreborn.rubber": true,
       "twilightforest.twilight_oak": true,
       "twilightforest.canopy": true,
       "twilightforest.mangrove": true,
@@ -32,14 +33,22 @@
       "bewitchment.cypress": true,
       "bewitchment.elder": true,
       "bewitchment.dragons_blood": true,
-      "croptopia.cinnamon": true
+      "croptopia.cinnamon": true,
+      "techreborn.rubber": true
     }
   },
   "entries": {
     "wood_type": {
+      "another_furniture.drawer": true,
+      "another_furniture.table": true,
       "friendsandfoes.beehive": true,
+      "another_furniture.shelf": true,
       "create.window_pane": true,
-      "create.window": true
+      "another_furniture.shutter": true,
+      "another_furniture.planter_box": true,
+      "another_furniture.bench": true,
+      "create.window": true,
+      "another_furniture.chair": true
     },
     "leaves_type": {}
   }
