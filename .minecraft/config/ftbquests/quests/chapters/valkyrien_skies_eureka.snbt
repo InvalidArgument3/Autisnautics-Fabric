@@ -1,0 +1,275 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "valkyrien_skies_eureka"
+	group: "33A417364C0A17FE"
+	icon: "vs_eureka:balloon"
+	id: "23241454AC2B76B8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"237BEA48061FA68A"
+				"4C9A3C37FE5DE6F9"
+			]
+			description: [
+				"A ship helm is the main brain and control system for your ship. Sneak right click to open the GUI where you can assemble/disassemble your ship, align it, and Ship controls can be seen in the options menu, but by default are WASD + V/Space for down and up. "
+				""
+				"A ship helm will try and keep your ship level, but it's not perfect. Make sure your ship is balanced. The controls are relative to the direction of the helm itself, i.e. if your ship is pitched up, forward can make you pitch up."
+			]
+			id: "430F674EE4DE2FFB"
+			rewards: [{
+				id: "4FE0A4CA62F4E6DB"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "467C38BFB4CCF921"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "vs_eureka:oak_ship_helm"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:spruce_ship_helm"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:birch_ship_helm"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:jungle_ship_helm"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:acacia_ship_helm"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:dark_oak_ship_helm"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:crimson_ship_helm"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:warped_ship_helm"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07AAD97772F8F3DD"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "vs_eureka:balloon"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:white_balloon"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:light_gray_balloon"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:gray_balloon"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:black_balloon"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:red_balloon"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:orange_balloon"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:yellow_balloon"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:lime_balloon"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:green_balloon"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:light_blue_balloon"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:cyan_balloon"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:blue_balloon"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:purple_balloon"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:magenta_balloon"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:pink_balloon"
+								}
+								{
+									Count: 1b
+									id: "vs_eureka:brown_balloon"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "bargain bin aeronautics"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"You need to be careful which blocks you put on airships. While they are fully editable live, multi-blocks may not work. Create contraptions are definitely not advised, they turn invisible. "
+				"Otherwise, most modded blocks should work. Multiblocks may drop as an item and leave an invisible hitbox."
+			]
+			icon: "create:electron_tube"
+			id: "237BEA48061FA68A"
+			rewards: [{
+				id: "47A55A2709CCA7F5"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "AGAINST GOD AND NATURE"
+			tasks: [{
+				id: "1920E0EC30094450"
+				title: "!!!WARNING!!!"
+				type: "checkmark"
+			}]
+			title: "!!!CAUTION!!!"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["430F674EE4DE2FFB"]
+			description: ["This engine consumes burnable fuel to increase your airship's velocity. Please use responsibly."]
+			id: "1F8A3299E98A5B75"
+			rewards: [{
+				id: "409842FE7739A0DC"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "I have to gen fast and balloons too slow"
+			tasks: [{
+				id: "44CE34EFD00B1434"
+				item: "vs_eureka:engine"
+				type: "item"
+			}]
+			title: "Total Thread Death"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["430F674EE4DE2FFB"]
+			description: ["The anchor holds a ship in place when powered with redstone. Probably."]
+			id: "093D90809153C1D4"
+			rewards: [{
+				id: "3BCB167D3D8C9E1D"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54C8BE9B65616A51"
+				item: "vs_eureka:anchor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["430F674EE4DE2FFB"]
+			description: [
+				"Floater"
+				""
+				"Floaters will add buoyancy to your ship. Too many of them and your ship could end up too light. Floaters also have redstone control. You can turn it off completely with a signal of 15, or use lower signals to fine tune their redstone power."
+			]
+			id: "0AA288F141F58E8A"
+			rewards: [{
+				id: "7AA1CBE25A296F7E"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4202B079FB8B41CF"
+				item: "vs_eureka:floater"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["430F674EE4DE2FFB"]
+			description: [
+				"Ballasts are like the opposite of floaters. They weigh your ship down, and lighten up when redstone is applied."
+				""
+				"Ballasts can have their on masses and off masses configured individually."
+			]
+			id: "13EBC60D3A75E601"
+			rewards: [{
+				id: "6139250DAB3B157A"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "245309ECE83E3415"
+				item: "vs_eureka:ballast"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["237BEA48061FA68A"]
+			id: "4C9A3C37FE5DE6F9"
+			rewards: [{
+				id: "4CC98CE455890A7B"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CBA0582D10E2187"
+				title: "Size Limits"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "VS Eureka"
+}

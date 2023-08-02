@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "artifiacts"
+	group: "1039AC171AB01709"
+	icon: "artifacts:golden_hook"
+	id: "0100278FEBCFB1BF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"Artifacts is a mod which aims to make exploration more rewarding by adding various powerful items that cannot be crafted."
+			""
+			"The items added by this mod can be found in chests in vanilla structures. All artifacts only have a few chests in which they can be found, so go out and explore! Additionally, a new underground campsite structure has been added. Mimics occasionally spawn in these campsites instead of a chests, which are dangerous enemies that attack players that get too close. Mimics always drop a random artifact when killed."
+		]
+		icon: "artifacts:golden_hook"
+		id: "5405E9640AFD2205"
+		rewards: [{
+			id: "4999C230547BF435"
+			item: "create:experience_nugget"
+			type: "item"
+		}]
+		subtitle: "bargain bin reliquary"
+		tasks: [{
+			id: "3CE298DCEB07B312"
+			title: "Artifacts Info"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Artifiacts"
+}

@@ -1,22 +1,5 @@
 {
   "types": {
-    "wood_type": {
-      "bewitchment.juniper": true,
-      "bewitchment.cypress": true,
-      "bewitchment.elder": true,
-      "bewitchment.dragons_blood": true,
-      "botania.livingwood": true,
-      "botania.dreamwood": true,
-      "techreborn.rubber": true,
-      "twilightforest.twilight_oak": true,
-      "twilightforest.canopy": true,
-      "twilightforest.mangrove": true,
-      "twilightforest.dark": true,
-      "twilightforest.time": true,
-      "twilightforest.transformation": true,
-      "twilightforest.mining": true,
-      "twilightforest.sorting": true
-    },
     "leaves_type": {
       "twilightforest.beanstalk": true,
       "twilightforest.thorn": true,
@@ -33,11 +16,29 @@
       "bewitchment.cypress": true,
       "bewitchment.elder": true,
       "bewitchment.dragons_blood": true,
-      "croptopia.cinnamon": true,
-      "techreborn.rubber": true
+      "croptopia.cinnamon": true
+    },
+    "wood_type": {
+      "bewitchment.juniper": true,
+      "bewitchment.cypress": true,
+      "bewitchment.elder": true,
+      "bewitchment.dragons_blood": true,
+      "botania.livingwood": true,
+      "botania.dreamwood": true,
+      "cinderscapes.scorched": true,
+      "cinderscapes.umbral": true,
+      "twilightforest.twilight_oak": true,
+      "twilightforest.canopy": true,
+      "twilightforest.mangrove": true,
+      "twilightforest.dark": true,
+      "twilightforest.time": true,
+      "twilightforest.transformation": true,
+      "twilightforest.mining": true,
+      "twilightforest.sorting": true
     }
   },
   "entries": {
+    "leaves_type": {},
     "wood_type": {
       "another_furniture.drawer": true,
       "another_furniture.table": true,
@@ -49,7 +50,6 @@
       "another_furniture.bench": true,
       "create.window": true,
       "another_furniture.chair": true
-    },
-    "leaves_type": {}
+    }
   }
 }

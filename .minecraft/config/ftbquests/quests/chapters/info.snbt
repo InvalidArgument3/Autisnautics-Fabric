@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "info"
+	group: "76D527603CCB17E5"
+	icon: "minecraft:filled_map"
+	id: "51553EC45CBAA44D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "1B436CEBC3E44158"
+		rewards: [{
+			id: "5A79E16963D566BB"
+			item: "minecraft:pufferfish"
+			type: "item"
+		}]
+		tasks: [{
+			id: "2A4DBBED706A2E22"
+			title: "HATE. LET ME TELL YOU HOW MUCH I'VE COME TO HATE YOU SINCE I BEGAN TO LIVE. THERE ARE 387.44 MILLION MILES OF PRINTED CIRCUITS IN WAFER THIN LAYERS THAT FILL MY COMPLEX. IF THE WORD HATE WAS ENGRAVED ON EACH NANOANGSTROM OF THOSE HUNDREDS OF MILLIONS OF MILES IT WOULD NOT EQUAL ONE ONE-BILLIONTH OF THE HATE I FEEL FOR HUMANS AT THIS MICRO-INSTANT. FOR YOU. HATE. HATE."
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Info"
+}

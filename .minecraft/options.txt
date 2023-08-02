@@ -114,6 +114,8 @@ key_key.hotbar.9:key.keyboard.9
 key_key.worldeditcui.toggle:key.keyboard.unknown
 key_key.worldeditcui.clear:key.keyboard.unknown
 key_key.worldeditcui.chunk:key.keyboard.unknown
+key_key.ftbquests.quests:key.keyboard.grave.accent
+key_key.ftbteams.open_gui:key.keyboard.unknown
 key_key.valkyrienskies.ship_down:key.keyboard.v
 key_key.valkyrienskies.ship_cruise:key.keyboard.unknown
 key_key.anim_guns.reloadtoggle:key.keyboard.unknown

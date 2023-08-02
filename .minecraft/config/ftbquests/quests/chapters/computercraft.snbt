@@ -1,0 +1,68 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "computercraft"
+	group: "0815C5D80307ECDF"
+	icon: "computercraft:computer_normal"
+	id: "722A7B53CBD2F394"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6ABB4FA1F55B325E"
+			rewards: [{
+				id: "63365CCEA975B34B"
+				item: {
+					Count: 1b
+					id: "computercraft:pocket_computer_normal"
+					tag: {
+						ComputerId: 0
+						Instanceid: 0
+						RepairCost: 0
+						SessionId: 1418339798
+						Upgrade: "computercraft:wireless_modem_normal"
+						display: {
+							Name: "{\"text\":\"iPad™ (2010)\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0EDB5376545B7B3A"
+				item: "computercraft:computer_normal"
+				type: "item"
+			}]
+			title: "Silicon maze of electronic demons"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6ABB4FA1F55B325E"]
+			dependency_requirement: "all_started"
+			id: "13A7975ADA5A76F1"
+			rewards: [{
+				count: 64
+				id: "24FF544FAE7AFE81"
+				item: "croptopia:cooked_shrimp"
+				type: "item"
+			}]
+			subtitle: "as shrimple as that"
+			tasks: [{
+				id: "2931DB9545C1FDFA"
+				item: {
+					Count: 1b
+					id: "computercraft:turtle_normal"
+					tag: {
+						RightUpgrade: "minecraft:diamond_pickaxe"
+					}
+				}
+				type: "item"
+			}]
+			title: "the real reason you're here"
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "Computercraft"
+}
