@@ -1,0 +1,58 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "origins"
+	group: "76D527603CCB17E5"
+	id: "76ADFC62529DC58E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Accept this quest for a one-time reroll on your origin. "]
+			icon: "origins:orb_of_origin"
+			id: "0A9A98CFAA13EC4E"
+			rewards: [{
+				id: "284572053CAA7D2A"
+				item: "origins:orb_of_origin"
+				type: "item"
+			}]
+			subtitle: "help I fucked up"
+			tasks: [{
+				id: "59627F11273F0B87"
+				title: "oh god oh fuck"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0A9A98CFAA13EC4E"]
+			description: ["reroll yourself my man"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:block/barrier_open"
+				}
+			}
+			id: "6E8D584D312B21EB"
+			rewards: [{
+				id: "716723ECAA697018"
+				item: "origins:orb_of_origin"
+				type: "item"
+			}]
+			subtitle: "I keep fucking up"
+			tasks: [{
+				id: "645C93C5C6118AEA"
+				points: false
+				type: "xp"
+				value: 100L
+			}]
+			title: "REROOOOOOOLLLER"
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "Origins"
+}

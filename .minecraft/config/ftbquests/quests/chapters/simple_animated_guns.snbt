@@ -1,0 +1,341 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "simple_animated_guns"
+	group: "6201EBBB63B94B24"
+	icon: {
+		Count: 1b
+		id: "anim_guns:revolver_coltarmy"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "59B16F3593F93D34"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "362FB9F1D19F59B6"
+			rewards: [{
+				count: 6
+				id: "60DC2794023DAB84"
+				item: "anim_guns:heavy_handgun_cartridge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A2748CD7B54FA55"
+				item: {
+					Count: 1b
+					id: "anim_guns:revolver_magnum"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Big Iron"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7AD30312454C3BF8"
+			rewards: [{
+				count: 6
+				id: "321900077585913C"
+				item: "anim_guns:heavy_handgun_cartridge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "536F54325EC26F17"
+				item: {
+					Count: 1b
+					id: "anim_guns:revolver_coltarmy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Bigger Iron"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "211957A7E7780408"
+			rewards: [{
+				count: 100
+				id: "09082941DB306E23"
+				item: "anim_guns:standard_rifle_cartridge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "605A5F144520E288"
+				item: {
+					Count: 1b
+					id: "anim_guns:lmg_m60"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Biggest Iron"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "6CCA0EB93236BA33"
+			rewards: [{
+				count: 17
+				id: "6CC8C7408A199C79"
+				item: "anim_guns:standard_handgun_cartridge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D27E2C085F01628"
+				item: {
+					Count: 1b
+					id: "anim_guns:pistol_light"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "*pap* *pap* *pap*"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "170166858AA03533"
+			rewards: [{
+				count: 7
+				id: "329A41F5A5B393CE"
+				item: "anim_guns:heavy_handgun_cartridge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F5A99B6EADCC952"
+				item: {
+					Count: 1b
+					id: "anim_guns:pistol_heavy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "juan"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "255D39389B00EC60"
+			rewards: [{
+				count: 30
+				id: "46B26A23011A6E7D"
+				item: "anim_guns:standard_handgun_cartridge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29E74A469C387139"
+				item: {
+					Count: 1b
+					id: "anim_guns:smg_machinepistol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "fuller auto"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "736484FCFDE530E5"
+			rewards: [{
+				count: 25
+				id: "5E378E5FFAA376B0"
+				item: "anim_guns:standard_handgun_cartridge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A3E26B2B3E9D811"
+				item: {
+					Count: 1b
+					id: "anim_guns:smg_heavy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "full auto"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "35923145C73CBE30"
+			rewards: [{
+				count: 30
+				id: "7712690001962C47"
+				item: "anim_guns:standard_rifle_cartridge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F32093A2E4A15E3"
+				item: {
+					Count: 1b
+					id: "anim_guns:assaultrifle_rus"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Never Obsolete™"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "7B6FEC2563676E96"
+			rewards: [{
+				count: 30
+				id: "662EC30CAA6E51E9"
+				item: "anim_guns:standard_rifle_cartridge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C302D7E73FFD9F7"
+				item: {
+					Count: 1b
+					id: "anim_guns:assaultrifle_light"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Non-Stop Warfare™"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			id: "65E8436A0F43B1FD"
+			rewards: [{
+				count: 30
+				id: "5F3C64A298C0001D"
+				item: "anim_guns:standard_rifle_cartridge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "557ECAB3471110DD"
+				item: {
+					Count: 1b
+					id: "anim_guns:assaultrifle_heavy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "I don't have any memes for the SCAR sorry"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			id: "5C4EBCE452F7DBCF"
+			rewards: [{
+				count: 5
+				id: "10F9A8EE51EBF601"
+				item: "anim_guns:heavy_rifle_cartridge"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A33DE463DCABBFE"
+				item: {
+					Count: 1b
+					id: "anim_guns:sniper_classic"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "it's fine"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "78DBFE47F6EFBC1A"
+			rewards: [{
+				count: 2
+				id: "6C9D2A4D394780DE"
+				item: "anim_guns:shotgun_shell"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D3D9295557C57D7"
+				item: {
+					Count: 1b
+					id: "anim_guns:shotgun_doublebarrel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "warcrimes (x2)"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "0F04637906CEAC83"
+			rewards: [{
+				count: 8
+				id: "3C1D339CEC002B95"
+				item: "anim_guns:shotgun_shell"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C9CE3B8461AF1C3"
+				item: {
+					Count: 1b
+					id: "anim_guns:shotgun_riot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "warcrimes (x8)"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			id: "4E57A308F28EFA56"
+			rewards: [{
+				count: 6
+				id: "0562D632457D7DD9"
+				item: "anim_guns:shotgun_shell"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00A925116F819A83"
+				item: {
+					Count: 1b
+					id: "anim_guns:shotgun_combat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "warcrimes (x6)"
+			x: 1.5d
+			y: 1.0d
+		}
+	]
+	title: "Simple Animated Guns"
+}

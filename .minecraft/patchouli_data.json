@@ -36,6 +36,14 @@
       ],
       "bookmarks": [],
       "completedManualQuests": []
+    },
+    "archon:grimoire": {
+      "viewedEntries": [
+        "archon:weapons/earth",
+        "archon:necromancy/undead_staff"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
     }
   }
 }

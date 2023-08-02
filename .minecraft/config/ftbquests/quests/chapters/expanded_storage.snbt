@@ -1,0 +1,35 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "expanded_storage"
+	group: "3BF541F539E59E70"
+	icon: "minecraft:chest"
+	id: "526EFCE39B969266"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "expandedstorage:iron_chest"
+			id: "14386B5DEF318976"
+			tasks: [{
+				id: "58F60F54C48DDA29"
+				title: "Expanded Storage"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "toms_storage:ts.crafting_terminal"
+			id: "2B432446AEF2B357"
+			tasks: [{
+				id: "2FB71DB315F281CF"
+				title: "Tom's Simple Storage Mod"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "Storage"
+}

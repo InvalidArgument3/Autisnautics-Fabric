@@ -1,0 +1,560 @@
+{
+	hide_tooltip: true
+	icon: "minecraft:chest"
+	id: "5DCC241FC3608FBF"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "minecraft:wither_rose" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							1149586758
+							-1177203162
+							-1844492995
+							1035592012
+						]
+						Name: "gamingguidesde"
+						Properties: {
+							textures: [{
+								Signature: "KBPw7Si6IoWnfbtgqz2Vr95KeCmEKpH+NHDZgfi+hzw5ouczvuyQsPQv5Fj2uDcQcVM73YQ97H1kHaBOqhShAMXli/xQwcRZRlmd8efK/H9s7INqTfw1urobXI/oysaStwlPsGaeaFOKqD+joQkpCNkTeg1kjcrJhoa8M5ihSnVNwY7IPvsf+8aopmbghKFEduKqoxCCTLfhgQxGQVaMWzgcDl/2QHoiwDJQSAJ+13c3s/nb++XJRe3TTHZqRsim99jlIALGyq8Dj0tbpH+wyedgn91cydTZg1X017jJuPrWw0e8zlD0gK7gRmLEoAHRUmJ+US31db54p6XRxj5L7mx/9bDrOfj8JshEXtrFKUXCw3afqO0XJRZdpzp5vmCmM4Vi1eUgSxMRiJkdmkikKrJgjYmwUzJRyLVmvH4/MJK0SNE6C7KFsekkUHtXw82Leo648evbXZGR+bf177KYSQ7rzSLeZI2JY5Yc8PCCbll0Vhu5tlZ0D9wMqt+92LGdCNTLo7WV7n/dRDvK4upMchVcNYTPoenp8DrULP2dnNSpRWrkUU6404w40ICcO860y/RK2ZKuxkidZ1y/E25hADIS2C0qer/C8VH9qmNct+uD0LUXsM1fR4KXANcnCp+pDE5bWFFb+m16GSwQA6Etq30QDkJhtovbTPkHKeiu2zc="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTY5MDk1NjA4NjA3NSwKICAicHJvZmlsZUlkIiA6ICI0NDg1NGQ0NmI5ZDU0ZTI2OTIwZjQ1M2QzZGI5ZTE0YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJnYW1pbmdndWlkZXNkZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84YTljM2FmZjQ0YjBmMjAxOTJkZjI3NjBiOGNlNjFlODBiNTI4NjkyZDE2MDNiYTQxYjQ5OThjMzYzOGI2MmI2IgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOWE3NjUzNzY0Nzk4OWY5YTBiNmQwMDFlMzIwZGFjNTkxYzM1OWU5ZTYxYTMxZjRjZTExYzg4ZjIwN2YwYWQ0IgogICAgfQogIH0KfQ=="
+							}]
+						}
+					}
+					display: {
+						Name: "{\"text\":\"Hibernating Slime\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-521275591
+							-156941297
+							-1786231711
+							1866814940
+						]
+						Name: "Cactus"
+						Properties: {
+							textures: [{
+								Signature: "GD6Tzc/Np2l2ig9fbnV424Vu87+/rveGr7EymOQBn4wNyIypjeabZxKcYrX2l6U4K9gF4zZCDFvyewDGda8SUa7rXaS2gFC62evHP7UIddylmbzuTUmFLA26QhnkgPKtqvSZ7PKbyJFyl95Teh6k+uAfvAGqkxhzGKsGZwNhq2wl9SDthTUpoj27FDlb8gtSsU0dNfT/TBbhqHt0Jx/FoRkTPM7Al/S/HjC+za2iDLsNV7vLtTOht3hUD2a1NSH3iz4aSY78x8VmH8dU4u3QOqsBqCuWODE+P5UjJSyVzkmUo0eee6TzIZCB169gWzcESxL3ud/v6JV0X7+rxfuIZK7rRq+FgoEr/zBSZ73wdl/+IlbVvyfWn10ekzUmyy+1qJgE1DQxJBg7t1zpLMUNh1gmkyQkicoa+OV5ekSgNgQK8AesTR0C4OCX5FJs5PLZl8Q2VTHzsneA0ajpdLXE4zoKh17jphtv8/45eiIdi34Q2Rl9X0T9me5SOqQIv1dy/8/X1ulrIhHpO8kv6NRXsuDZxBtj/BvtrhcuopzQfhP771Vvgj0GnsReQffVJlp4YSFm7ppejYSWXEjrdTwgF93HK/rbpMClP1d8K/VBNqOvW90u7piZIpaGmVJnMF2necDPKDpe1kncNz0pF6taRMfVU8rkzezEBoaTwMWgeCc="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTY5MDk1NjE2NzA2NCwKICAicHJvZmlsZUlkIiA6ICJlMGVkZjczOWY2YTU0NDBmOTU4ODQ0NjE2ZjQ1NTVkYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDYWN0dXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTE1NmZmYzExOWVjY2U3NWYwOTAyM2Y1NWU3NGRlYmZjYzc5OGEzYTBmZDJmNTM4OGMxMjFjZjU0OTdmY2ViYSIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0="
+							}]
+						}
+					}
+					display: {
+						Name: "{\"text\":\"Fake Plant\"}"
+					}
+				}
+			}
+		}
+		{ item: "minecraft:music_disc_11" }
+		{
+			item: {
+				Count: 1b
+				id: "magistuarmory:wood_pike"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:looting"
+						lvl: 10s
+					}]
+					RepairCost: 0
+					display: {
+						Name: "{\"text\":\"The Jabber's Lucky Jabber\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 10s
+					}]
+					RepairCost: 0
+					display: {
+						Name: "{\"text\":\"Morale Crossbow\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					CustomPotionColor: 11085040
+					CustomPotionEffects: [
+						{
+							Amplifier: 4
+							Duration: 1000
+							Id: 22
+						}
+						{
+							Amplifier: 4
+							Duration: 1000
+							Id: 12
+						}
+						{
+							Amplifier: 4
+							Duration: 1000
+							Id: 3
+						}
+						{
+							Amplifier: 4
+							Duration: 1000
+							Id: 21
+						}
+						{
+							Amplifier: 4
+							Duration: 1000
+							Id: 6
+						}
+						{
+							Amplifier: 4
+							Duration: 1000
+							Id: 14
+						}
+						{
+							Amplifier: 4
+							Duration: 1000
+							Id: 8
+						}
+						{
+							Amplifier: 4
+							Duration: 1000
+							Id: 16
+						}
+						{
+							Amplifier: 4
+							Duration: 1000
+							Id: 10
+						}
+						{
+							Amplifier: 4
+							Duration: 1000
+							Id: 11
+						}
+						{
+							Amplifier: 4
+							Duration: 1000
+							Id: 28
+						}
+						{
+							Amplifier: 4
+							Duration: 1000
+							Id: 1
+						}
+						{
+							Amplifier: 4
+							Duration: 1000
+							Id: 5
+						}
+						{
+							Amplifier: 4
+							Duration: 1000
+							Id: 13
+						}
+					]
+					display: {
+						Lore: [
+							"[{\"text\":\"Alchemists are like onions,\",\"italic\":false}]"
+							"[{\"text\":\"they have layers\",\"italic\":false}]"
+						]
+						Name: "[{\"text\":\"Netzach's Special Infusion\",\"italic\":false}]"
+					}
+				}
+			}
+		}
+		{ item: "artifacts:whoopee_cushion" }
+		{ item: "minecraft:cookie" }
+		{ item: "create:builders_tea" }
+		{
+			item: {
+				Count: 1b
+				id: "simple_backpack:simple_bundle"
+				tag: {
+					Items: [
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+						{
+							Count: 64b
+							id: "croptopia:milk_bottle"
+						}
+					]
+					RepairCost: 0
+					display: {
+						Name: "{\"text\":\"Munashe's Bundle\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:written_book"
+				tag: {
+					author: "Regaccio"
+					filtered_title: "Read Me"
+					pages: ["{\"text\":\"ur a faget\"}"]
+					resolved: 1b
+					title: "Read Me"
+				}
+			}
+		}
+		{ item: "twilightforest:tiny_bird_spawn_egg" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					CustomPotionColor: 11400447
+					CustomPotionEffects: [{
+						Ambient: 1b
+						Amplifier: 100
+						Duration: 140
+						Id: 8
+					}]
+					display: {
+						Name: "[{\"text\":\"Potion of Icarian Flight\",\"italic\":false}]"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:lingering_potion"
+				tag: {
+					CustomPotionColor: 4056575
+					CustomPotionEffects: [{
+						Ambient: 1b
+						Amplifier: 1
+						Duration: 1200
+						Id: 10
+					}]
+					display: {
+						Name: "[{\"text\":\"Vial of Hot Spring Water\",\"italic\":false}]"
+					}
+				}
+			}
+		}
+		{ item: "minecraft:cobweb" }
+		{
+			item: {
+				Count: 1b
+				id: "magistuarmory:medieval_bag"
+				tag: {
+					RepairCost: 0
+					display: {
+						Name: "{\"text\":\"Bag of Winds\"}"
+					}
+				}
+			}
+		}
+		{ item: "minecraft:zombie_villager_spawn_egg" }
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ item: "minecraft:poisonous_potato" }
+		{
+			item: {
+				Count: 1b
+				id: "createdeco:gold_coin"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:vanishing_curse"
+						lvl: 1s
+					}]
+					RepairCost: 1
+					display: {
+						Name: "{\"text\":\"Bitcoin\"}"
+					}
+				}
+			}
+		}
+		{ item: "cookingforblockheads:cow_jar" }
+		{ item: "minecraft:dead_bush" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:golden_hoe"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:silk_touch"
+						lvl: 1s
+					}]
+					RepairCost: 1
+					display: {
+						Name: "{\"text\":\"Cropmaster Deluxe\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "botania:ender_dagger"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:fire_aspect"
+						lvl: 1s
+					}]
+					RepairCost: 1
+					display: {
+						Name: "{\"text\":\"Gabriel's Mysterious Black Dagger\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "simple_backpack:simple_bundle"
+				tag: {
+					Items: [
+						{
+							Count: 1b
+							id: "cookingforblockheads:toaster"
+						}
+						{
+							Count: 1b
+							id: "minecraft:water_bucket"
+						}
+					]
+					RepairCost: 0
+					display: {
+						Name: "{\"text\":\"Do-It-Yourself Kit\"}"
+					}
+				}
+			}
+		}
+		{ item: "twilightforest:giant_cobblestone" }
+	]
+	title: "proktable2"
+}

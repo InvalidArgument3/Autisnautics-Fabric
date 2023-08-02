@@ -7,20 +7,216 @@
 	id: "51553EC45CBAA44D"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "1B436CEBC3E44158"
-		rewards: [{
-			id: "5A79E16963D566BB"
-			item: "minecraft:pufferfish"
-			type: "item"
-		}]
-		tasks: [{
-			id: "2A4DBBED706A2E22"
-			title: "HATE. LET ME TELL YOU HOW MUCH I'VE COME TO HATE YOU SINCE I BEGAN TO LIVE. THERE ARE 387.44 MILLION MILES OF PRINTED CIRCUITS IN WAFER THIN LAYERS THAT FILL MY COMPLEX. IF THE WORD HATE WAS ENGRAVED ON EACH NANOANGSTROM OF THOSE HUNDREDS OF MILLIONS OF MILES IT WOULD NOT EQUAL ONE ONE-BILLIONTH OF THE HATE I FEEL FOR HUMANS AT THIS MICRO-INSTANT. FOR YOU. HATE. HATE."
-			type: "checkmark"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["74C45E2E9EC08788"]
+			id: "1B436CEBC3E44158"
+			rewards: [
+				{
+					id: "5A79E16963D566BB"
+					item: "minecraft:pufferfish"
+					type: "item"
+				}
+				{
+					id: "31C3837503F9C70A"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A4DBBED706A2E22"
+				title: "HATE. LET ME TELL YOU HOW MUCH I'VE COME TO HATE YOU SINCE I BEGAN TO LIVE. THERE ARE 387.44 MILLION MILES OF PRINTED CIRCUITS IN WAFER THIN LAYERS THAT FILL MY COMPLEX. IF THE WORD HATE WAS ENGRAVED ON EACH NANOANGSTROM OF THOSE HUNDREDS OF MILLIONS OF MILES IT WOULD NOT EQUAL ONE ONE-BILLIONTH OF THE HATE I FEEL FOR HUMANS AT THIS MICRO-INSTANT. FOR YOU. HATE. HATE."
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B436CEBC3E44158"]
+			description: ["Click the FTB teams icon in the top left of your inventory to set up a team."]
+			icon: "minecraft:red_banner"
+			id: "3DA6423C634C2F2F"
+			rewards: [{
+				id: "461206D76506FDEF"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "\"\"\"\"\"multiplayer\"\"\"\"\""
+			tasks: [{
+				id: "2E64E03773522362"
+				title: "Teams"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B436CEBC3E44158"]
+			description: ["some questlines are ripped right from other larger modpacks. Some descriptions might be inaccurate. "]
+			icon: "minecraft:iron_bars"
+			id: "7D32044B22F07D5B"
+			rewards: [{
+				id: "6FBB1FEA48923E58"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "443B96A0EC235933"
+				title: "LOCK ME UP"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			description: ["By reading this book, you accept the server's terms of service."]
+			icon: "minecraft:writable_book"
+			id: "74C45E2E9EC08788"
+			rewards: [
+				{
+					id: "0EB201926FD75588"
+					item: {
+						Count: 1b
+						id: "minecraft:written_book"
+						tag: {
+							RepairCost: 0
+							author: "validpoint"
+							display: {
+								Name: "{\"text\":\"Terms Of Service\"}"
+							}
+							filtered_title: "Terms Of Servic"
+							pages: [
+								"{\"text\":\"N\"}"
+								"{\"text\":\"I\"}"
+								"{\"text\":\"C\"}"
+								"{\"text\":\"E\"}"
+								"{\"text\":\":catjam:\"}"
+							]
+							resolved: 1b
+							title: "Terms Of Servic"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48410DE01EDB3130"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "75C1810B8E80A9F3"
+				title: "Terms Of Use"
+				type: "checkmark"
+			}]
+			title: "Terms Of Service"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DA6423C634C2F2F"]
+			description: ["You can claim territory by right-clicking on the map. It shows up on the webmap, too. Don't abuse this."]
+			icon: "minecraft:clay"
+			id: "5FF7CF0BA81B17AF"
+			rewards: [
+				{
+					id: "0AB5E593ECDDC072"
+					item: "minecraft:clay"
+					type: "item"
+				}
+				{
+					id: "6DC50526B17E7385"
+					item: "create:experience_nugget"
+					type: "item"
+				}
+			]
+			subtitle: "gib clay"
+			tasks: [{
+				id: "4C2CE8E7BAE84998"
+				title: "Claims"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B436CEBC3E44158"]
+			description: ["Most mod keys are unbound by default. If something isn't working try checking your keybinds."]
+			icon: "tis3d:key"
+			id: "553689E25AF04B69"
+			rewards: [{
+				id: "25BA08286F2DFF9B"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "I will not be bound"
+			tasks: [{
+				id: "26B4745E461DD7E2"
+				title: "Keybindings"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["74C45E2E9EC08788"]
+			icon: "akashictomeoftools:akashic_tome"
+			id: "2DC22734C4FE19B4"
+			rewards: [{
+				id: "0D83C0F1E69E67DD"
+				item: {
+					Count: 1b
+					id: "akashictomeoftools:akashic_tome"
+					tag: {
+						Enchantments: [{
+							id: "yigd:soulbound"
+							lvl: 1s
+						}]
+						RepairCost: 1
+						SelectedPos: -1
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "craft with book"
+			tasks: [{
+				id: "1B61907B171E78DD"
+				title: "F R E E book storage"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"7D32044B22F07D5B"
+				"74C45E2E9EC08788"
+				"1B436CEBC3E44158"
+				"5FF7CF0BA81B17AF"
+				"3DA6423C634C2F2F"
+				"2DC22734C4FE19B4"
+				"553689E25AF04B69"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:book"
+			id: "102B2B8A235C77A4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D6A6DE6E6410B11"
+				table_id: 2252519173580456557L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "video games?"
+			tasks: [{
+				id: "634BC249C87B5E75"
+				title: "RTFM"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+	]
 	title: "Info"
 }

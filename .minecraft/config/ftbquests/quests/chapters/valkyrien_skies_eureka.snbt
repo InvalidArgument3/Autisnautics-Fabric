@@ -256,12 +256,14 @@
 		}
 		{
 			dependencies: ["237BEA48061FA68A"]
+			description: ["We were unable to reach the point where performance was significantly affected by ship size. For now, ships are uncapped. Please do not turn a mountain into a ship."]
 			id: "4C9A3C37FE5DE6F9"
 			rewards: [{
 				id: "4CC98CE455890A7B"
 				item: "create:experience_nugget"
 				type: "item"
 			}]
+			subtitle: "oh god"
 			tasks: [{
 				id: "5CBA0582D10E2187"
 				title: "Size Limits"
@@ -269,6 +271,44 @@
 			}]
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"13EBC60D3A75E601"
+				"430F674EE4DE2FFB"
+				"237BEA48061FA68A"
+				"4C9A3C37FE5DE6F9"
+				"093D90809153C1D4"
+				"1F8A3299E98A5B75"
+				"0AA288F141F58E8A"
+			]
+			hide_dependency_lines: true
+			icon: "immersive_aircraft:airship"
+			id: "11E96DC2BD410146"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5928E30406A4599D"
+					table_id: 2252519173580456557L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1519039FC3A74A41"
+					table_id: 6758816859616743359L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Completion"
+			tasks: [{
+				id: "62420C28FB28F071"
+				title: "in the end, I guess we really did Create Aeronautics"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
 		}
 	]
 	title: "VS Eureka"

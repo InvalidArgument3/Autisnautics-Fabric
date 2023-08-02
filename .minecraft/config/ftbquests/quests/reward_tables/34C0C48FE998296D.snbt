@@ -1,0 +1,87 @@
+{
+	hide_tooltip: true
+	icon: "minecraft:chest"
+	id: "34C0C48FE998296D"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "origins:orb_of_origin" }
+		{ item: "twilightforest:firefly_particle_spawner" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:shield"
+				tag: {
+					BlockEntityTag: {
+						Base: 2
+						Patterns: [
+							{
+								Color: 15
+								Pattern: "cs"
+							}
+							{
+								Color: 12
+								Pattern: "cs"
+							}
+							{
+								Color: 12
+								Pattern: "bts"
+							}
+							{
+								Color: 2
+								Pattern: "hh"
+							}
+							{
+								Color: 6
+								Pattern: "mc"
+							}
+						]
+					}
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:protection"
+						lvl: 4s
+					}]
+					RepairCost: 1
+					display: {
+						Name: "{\"text\":\"Ultimate Mythic Shield of the Gods +255\"}"
+					}
+				}
+			}
+		}
+		{ item: "minecraft:lead" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:paper"
+				tag: {
+					RepairCost: 0
+					display: {
+						Name: "{\"text\":\"IOU: 1 Prize\"}"
+					}
+				}
+			}
+		}
+		{ item: "minecraft:trader_llama_spawn_egg" }
+		{ count: 64, item: "minecraft:tnt" }
+		{
+			item: {
+				Count: 1b
+				id: "bewitchment:voodoo_poppet"
+				tag: {
+					Damage: 91
+					FromPlayer: 1b
+					OwnerName: "validpoint"
+					OwnerUUID: [I;
+						-618295937
+						1407792467
+						-1329554392
+						-1407900280
+					]
+				}
+			}
+		}
+		{ item: "minecraft:diamond_horse_armor" }
+	]
+	title: "proktable3"
+}

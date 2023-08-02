@@ -1,0 +1,14 @@
+name = "Trash Cans"
+filename = "trashcans-1.0.18-fabric-mc1.19.2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/4QrnfueM/versions/SgoEzNRs/trashcans-1.0.18-fabric-mc1.19.2.jar"
+hash-format = "sha512"
+hash = "63ee4caf02d8c4082d064eddf8fe7824a9db85714b69e07b8ffb32eaf2c6e61306dfb22f1de5da1afb6a1cabe41f12a761889df84b934580008a7e4f9b77fa37"
+
+[update]
+[update.modrinth]
+mod-id = "4QrnfueM"
+version = "SgoEzNRs"

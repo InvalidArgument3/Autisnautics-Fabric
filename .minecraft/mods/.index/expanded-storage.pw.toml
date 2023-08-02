@@ -1,0 +1,14 @@
+name = "Expanded Storage"
+filename = "expandedstorage-8.3.4+1.19.2-fabric.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/F56tBubk/versions/thfTDvBM/expandedstorage-8.3.4%2B1.19.2-fabric.jar"
+hash-format = "sha512"
+hash = "737838b89b7cce51cefd02de5aaa9dc707c2753f6f8fda423e9d681718e49938ef2b0b2f960ada6c03b874121f0ff2accaca60d9467ef43724edf41c0cd262aa"
+
+[update]
+[update.modrinth]
+mod-id = "F56tBubk"
+version = "thfTDvBM"

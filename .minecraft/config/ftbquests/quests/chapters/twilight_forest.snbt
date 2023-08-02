@@ -1,0 +1,1521 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "twilight_forest"
+	group: "1039AC171AB01709"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "1133B51512D669EC"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "539453A048F71094"
+			rewards: [{
+				id: "5BA17155A01D10BE"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Enter the mysterious magical woodlands; the Twilight Forest."
+			tasks: [{
+				dimension: "twilightforest:twilightforest"
+				id: "307BD60C8100A631"
+				type: "dimension"
+			}]
+			x: 7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["539453A048F71094"]
+			description: ["The Naga can be found in the Naga Courtyard. When killed it drops Naga Scales and a Naga Trophy along with some other loot; touching a scale will allow the player to enter the Lich Tower."]
+			icon: "twilightforest:naga_trophy"
+			id: "4EA90E4534247A4D"
+			rewards: [{
+				id: "11701F7A1CB69058"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Slay the Naga in its forest courtyard and obtain a Naga Scale to overcome the barrier magic surrounding the Lich's tower."
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "0F20673ED018E7C1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4EA90E4534247A4D"]
+			description: [
+				"The Twilight Lich can be found in the Lich Tower. Killing it and getting a scepter will allow the player to enter the Swamp, Dark Forest, and Snowy Forest as well as the dungeons in each area."
+				""
+				"The next stage in Twilight Forest progression is the Twilight Swamp. The Twilight Lich must be defeated and its Scepter taken before entering this phase. Entering this stage before the Twilight Lich is defeated will inflict Hunger on the player."
+			]
+			icon: "twilightforest:lich_trophy"
+			id: "392FE0691197DA9F"
+			rewards: [{
+				id: "2754D3D6B352A1AE"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Slay the Twilight Lich at top of his tower and retrieve a Scepter to clear poisonous mosquitoes from the Swamp, see through blinding darkness of the Dark Forest's curse, and resist the Snowy Forest's chill."
+			tasks: [{
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+				id: "4930D8AF39174807"
+				type: "advancement"
+			}]
+			title: "Twilight Lich"
+			x: 14.25d
+			y: -8.0d
+		}
+		{
+			dependencies: ["392FE0691197DA9F"]
+			description: ["The Minoshroom can be found in Labyrinths, which are found in the Twilight Swamp biome. Natural entrances can be found through caves or the small hills found in the surface that lead directly to the center. The goal of this dungeon is to kill the Minoshroom. Killing it and eating one of the dropped Meef Stroganoff will allow the player to enter the Fire Swamp."]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "2D5BBCD3F940BE54"
+			rewards: [{
+				id: "28CC9C10002E32A0"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "The meat and mushroom stew pleasantly warms you, enough so you feel you're acclimatised enough to venture into the Fire Swamp."
+			tasks: [{
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+				id: "2A028674EE9E84D0"
+				type: "advancement"
+			}]
+			title: "Minoshroom"
+			x: 14.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D5BBCD3F940BE54"]
+			description: [
+				"The Hydra can be found in the Hydra Lair in the middle of a Fire Swamp. Killing it and obtaining Fiery Blood from it will complete one step to unlocking the Highlands."
+				""
+				"The next stage in Twilight Forest progression is the Dark Forest biome. Added to its already extreme darkness, players will have Blindness inflicted on them unless they have defeated the Twilight Lich first. This can be circumvented if the player is wearing a helmet enchanted with Night Vision."
+			]
+			id: "5349542EAF609696"
+			rewards: [{
+				id: "7F25FAE2C2D1675A"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Defeat the mighty Hydra and empower yourself."
+			tasks: [{
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+				id: "539599F82AFFA74E"
+				type: "advancement"
+			}]
+			x: 1.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5349542EAF609696"]
+			description: ["The Knight Phantom can be found in the Goblin Knight Stronghold underneath Dark Forests. Before being able to enter the stronghold, the player must find a room with a Trophy Pedestal. On the pedestal, they must place any trophy. When placed down the shield around the stronghold will be removed.The player then needs to go through the stronghold until the Knight Phantom is found. When killed it will allow access to the Dark Tower."]
+			icon: "twilightforest:knight_phantom_trophy"
+			id: "2E603FCB82DC886B"
+			rewards: [{
+				id: "035540F40F85674A"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Settle the restless phantoms in the Knight's Tomb and the carminite tower's devices will obey you."
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "324B9460C3E173BA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2E603FCB82DC886B"]
+			description: [
+				"The Ur-Ghast can be found in the Dark Tower found in the middle of the Dark Forest. It is found at the top of the tower, along with many other monsters, such as Carminite Ghastlings, Towerwood Borers, and Carminite Golems. Killing it and taking the Fiery Tears will complete one step to unlocking the Highlands."
+				""
+				"The next stage in Twilight Forest progression is in the Snowy Forest and Glacier biomes. If entered before defeating the Twilight Lich, the player will freeze and move much slower than in other biomes."
+			]
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "43FF6B04F1048E09"
+			rewards: [{
+				id: "37F93877825989C0"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Touch the fiery red tears of the Ur-Ghast."
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "0C38CAE4EABB8FE3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["43FF6B04F1048E09"]
+			description: ["The Alpha Yeti is found in the Yeti Lair, in the center of Snowy Forest biomes. There are four natural entrances. Inside the lair are many Yeti packs. Killing the Alpha Yeti and obtaining the Alpha Yeti Fur will unlock the Glacier biome."]
+			icon: "twilightforest:alpha_yeti_trophy"
+			id: "78493192F7A18FD2"
+			rewards: [{
+				id: "7BDEF16C6E372945"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Line your garments with the soft fur from the Alpha Yeti, keeping you safe from the Glacier's cold."
+			tasks: [{
+				entity: "twilightforest:yeti_alpha"
+				id: "3B74574A7A378B5D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["78493192F7A18FD2"]
+			description: ["The Snow Queen is found in the Aurora Palace, located in Glacier biomes. When conquered, the player will complete one step to unlocking the Highlands."]
+			icon: "twilightforest:snow_queen_trophy"
+			id: "680FD59F7ACC7E21"
+			rewards: [{
+				id: "183160AA72BA5B66"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Defeat the Snow Queen atop the Aurora Palace."
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "3AD10933377BFBF9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["680FD59F7ACC7E21"]
+			description: [
+				"When the Hydra, Ur-Ghast and Snow Queen have been defeated, the Highlands will unlock, revealing the final stages in progression. If entered before defeating all three bosses, the player will be damaged by acid rain."
+				""
+				"Unlike previous stages, the Highlands does not have a boss to defeat, rather an item to obtain to get to the center. This area is split into two: the Troll Cave and the Cloud Cottage. To complete this achievement, the player must obtain the Lamp of Cinders from inside an Obsidian vault, requiring a Giant's Pickaxe to break in. Once the Lamp is acquired, the player can move on to the next stage."
+			]
+			id: "1753F7DDF2ADEFFB"
+			rewards: [{
+				id: "4AC7EAB582524307"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Slay the Hydra, Ur-Ghast, and Snow Queen to clear the acid rain and embolden yourself for the Highlands."
+			tasks: [{
+				advancement: "twilightforest:progress_merge"
+				criterion: ""
+				id: "59DC7AC06246775E"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1753F7DDF2ADEFFB"]
+			id: "04E37D5F670BF1EF"
+			rewards: [{
+				id: "3C74EC50BE54EBE7"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:troll"
+				id: "561F18C72A436EC2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1A898BE14947DF6B"]
+			id: "0A11D3845D8F231B"
+			rewards: [{
+				id: "6731D3B083E29E68"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "twilightforest:giant_miner"
+				id: "241D4783AA74782D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["04E37D5F670BF1EF"]
+			id: "1A898BE14947DF6B"
+			rewards: [{
+				id: "6F21AB795E37FAE8"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16DB4D91424F9116"
+				item: "twilightforest:magic_beans"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0A11D3845D8F231B"]
+			id: "76A2F6D8DEEDE474"
+			rewards: [{
+				id: "193A9F27FAB71C24"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76CEB8ADBEB6CDD4"
+				item: {
+					Count: 1b
+					id: "twilightforest:giant_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["76A2F6D8DEEDE474"]
+			description: ["The Thornlands stage is the final functioning stage in Twilight Forest. It is completed by simply burning through the dense bushes of Thorns with a Lamp of Cinders. This allows the player to move onto the final stage of progression."]
+			id: "19B32C52F6F2C275"
+			rewards: [{
+				id: "6A6280B38C7272D0"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C2E039600515C81"
+				item: {
+					Count: 1b
+					id: "twilightforest:lamp_of_cinders"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4EA90E4534247A4D"]
+			id: "77DB32C64BF7962B"
+			rewards: [{
+				id: "13D1DA98673E98D4"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3F4B65D6E3CDACC4"
+					item: {
+						Count: 1b
+						id: "twilightforest:naga_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63A8A8BF41C49B62"
+					item: {
+						Count: 1b
+						id: "twilightforest:naga_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["392FE0691197DA9F"]
+			id: "27A065BD26842CD3"
+			rewards: [{
+				id: "3865EB021B9967A0"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20A4C21ED34C404C"
+				item: {
+					Count: 1b
+					id: "twilightforest:zombie_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["392FE0691197DA9F"]
+			id: "48672320EA3BBE52"
+			rewards: [{
+				id: "36F942A73AC95E17"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "64E6152FD4835862"
+					item: {
+						Count: 1b
+						id: "twilightforest:twilight_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "263E078C44BC7FDD"
+					item: {
+						Count: 1b
+						id: "twilightforest:lifedrain_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C88B5129C8869DB"
+					item: {
+						Count: 1b
+						id: "twilightforest:fortification_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2D5BBCD3F940BE54"]
+			id: "4ED928DF3D7629F7"
+			rewards: [{
+				id: "6AE424E6A7BE92C0"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7336A11E084413B2"
+				item: "twilightforest:meef_stroganoff"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D5BBCD3F940BE54"]
+			id: "2CA0B2EC7C8E1F8A"
+			rewards: [{
+				id: "032BB7F040BC6805"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BA88218DB564924"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "twilightforest:gold_minotaur_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "twilightforest:diamond_minotaur_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5349542EAF609696"]
+			id: "60850D22B87DAF3D"
+			rewards: [{
+				id: "48D4BDE00E76773A"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B6370D655DC9154"
+				item: "twilightforest:hydra_chop"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5349542EAF609696"]
+			id: "5B4FCB841C143C8C"
+			rewards: [{
+				id: "09781CB336C42919"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C018BCCE844A8D9"
+				item: "twilightforest:fiery_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5B4FCB841C143C8C"]
+			id: "452F897D00F27CD1"
+			rewards: [{
+				id: "149DF335CA36712B"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AEE28F78E829F5F"
+				item: {
+					Count: 1b
+					id: "twilightforest:fiery_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5B4FCB841C143C8C"]
+			id: "55DEDAE298ABD5E1"
+			rewards: [{
+				id: "5DB5DB12F2C54EFC"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5EE1D0A67302FAE5"
+					item: {
+						Count: 1b
+						id: "twilightforest:fiery_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "689A92D46BC3DFD0"
+					item: {
+						Count: 1b
+						id: "twilightforest:fiery_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "524D746D0CE172F4"
+					item: {
+						Count: 1b
+						id: "twilightforest:fiery_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CB1CB80C2B8B8CF"
+					item: {
+						Count: 1b
+						id: "twilightforest:fiery_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2E603FCB82DC886B"]
+			id: "236B3A5578BB02A2"
+			rewards: [{
+				id: "38489BB9D5B2BE0D"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01B9E44DA4062CF3"
+				item: {
+					Count: 1b
+					id: "twilightforest:phantom_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2E603FCB82DC886B"]
+			id: "7B6BDA10E18D81E1"
+			rewards: [{
+				id: "13BB03F84AC6D96B"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "253E086606512516"
+				item: {
+					Count: 1b
+					id: "twilightforest:phantom_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4EA90E4534247A4D"]
+			id: "69C8DD71CCA0B2EE"
+			rewards: [{
+				id: "49CEE5B32095D5D4"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D72E485FC4460AE"
+				item: "twilightforest:charm_of_life_1"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["69C8DD71CCA0B2EE"]
+			id: "330A51B23D7F0CDD"
+			rewards: [{
+				id: "0B8B1DEFDD9123DA"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36927078023DEB59"
+				item: "twilightforest:charm_of_life_2"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["43FF6B04F1048E09"]
+			id: "0054F0E9BAE7842E"
+			rewards: [{
+				id: "680A4A3D36E6B741"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F374D22AA90CB6C"
+				item: "twilightforest:carminite"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4EA90E4534247A4D"]
+			id: "4BCAB2B1FBD6B2ED"
+			rewards: [{
+				id: "5C371FBE764DCD1F"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36FE3810EBB3AF53"
+				item: "twilightforest:charm_of_keeping_1"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["78493192F7A18FD2"]
+			id: "5EA6F61A0ACC5A78"
+			rewards: [{
+				id: "6D0E5F008F1F7A56"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "689207BFA6216ADB"
+				item: "twilightforest:alpha_yeti_fur"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5EA6F61A0ACC5A78"]
+			id: "0A7717B4ABB3CAAF"
+			rewards: [{
+				id: "29D7C49D9BDCD119"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "005B761E66506814"
+				item: {
+					Count: 1b
+					id: "twilightforest:yeti_boots"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:protection"
+								lvl: 2s
+							}
+							{
+								id: "minecraft:feather_falling"
+								lvl: 4s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["680FD59F7ACC7E21"]
+			id: "7895F78F275CDD0A"
+			rewards: [{
+				id: "36B918A0F98396D2"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C9E01E9E6AC1F13"
+				item: {
+					Count: 1b
+					id: "twilightforest:triple_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["680FD59F7ACC7E21"]
+			id: "49B04D5A2166E27C"
+			rewards: [{
+				id: "06D456653A873D14"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D30985925B7FC89"
+				item: {
+					Count: 1b
+					id: "twilightforest:seeker_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["680FD59F7ACC7E21"]
+			id: "2F0DAD544F0C0E31"
+			rewards: [{
+				id: "719AF39C697299DB"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7711671ED04B1A77"
+				item: {
+					Count: 1b
+					id: "twilightforest:ender_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 15.5d
+		}
+		{
+			id: "06B73D35B0EC71B6"
+			rewards: [{
+				id: "5DC96CFAB72DE36F"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37F5544DB436BABF"
+				item: {
+					Count: 1b
+					id: "twilightforest:ice_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2D5BBCD3F940BE54"]
+			id: "68B82F7514264D71"
+			rewards: [{
+				id: "3860C39D1BA4C683"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5437E161E2672FF4"
+				item: {
+					Count: 1b
+					id: "twilightforest:mazebreaker_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:efficiency"
+								lvl: 4s
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}
+							{
+								id: "minecraft:fortune"
+								lvl: 2s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["539453A048F71094"]
+			description: ["The Questing Ram is a friendly boss animal added by Twilight Forest. He is found in the Quest Grove, which can only be found in the Enchanted Forest biome. Unlike other bosses, this animal is not meant to be slain. Instead, the player is supposed to complete his Quest of giving it Wool in every color. Wool can be given to him by dropping the Wool under the Ram, or by using the Wool on him. Each time a block of Wool is given his body will elongate and a stripe of that color wool will be added to his body."]
+			id: "3B03FB1361F6D5C7"
+			rewards: [{
+				id: "450AC0DA09DBDDE8"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "twilightforest:quest_ram"
+				criterion: ""
+				id: "2B907FDABF072042"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3B03FB1361F6D5C7"]
+			id: "397890EB285B0849"
+			rewards: [{
+				id: "4977FE90D52CB624"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "77F1649FC0554A23"
+				item: {
+					Count: 1b
+					id: "twilightforest:crumble_horn"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3DA5A105662621B3"]
+			id: "5D6C0AB1641EB02E"
+			rewards: [{
+				id: "10231CE0E90064A8"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17F944328BBFD47D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:peacock_fan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3DA5A105662621B3"]
+			id: "4F7A110F8D369099"
+			rewards: [{
+				id: "0E08FA5CC15223E9"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25511221CEF2B828"
+				item: {
+					Count: 1b
+					id: "twilightforest:moonworm_queen"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["539453A048F71094"]
+			id: "1FFD924446E28C60"
+			rewards: [{
+				id: "4484F1CA38FE29D2"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "Hunt some of the local wildlife."
+			tasks: [{
+				id: "276DFDBF717CB08F"
+				item: "twilightforest:magic_map_focus"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1FFD924446E28C60"]
+			id: "3DA5A105662621B3"
+			rewards: [{
+				id: "4C303643F6878A0A"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5A24FB0A42778A97"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:magic_map_empty"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4BCAB2B1FBD6B2ED"]
+			id: "7B55DE3A8A23CF39"
+			rewards: [{
+				id: "30511922D70434B0"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4416D9C81BD4E692"
+				item: "twilightforest:charm_of_keeping_2"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7B55DE3A8A23CF39"]
+			id: "717FFC8EB7AAB446"
+			rewards: [{
+				id: "4F10179834871701"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38295C52071E5394"
+				item: "twilightforest:charm_of_keeping_3"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			id: "12A60ED4122F8DF6"
+			rewards: [{
+				id: "34DDA8CBE22F41E8"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5796908C38F619B3"
+				item: "twilightforest:transformation_powder"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["43FF6B04F1048E09"]
+			id: "49A6F814FDCD73FA"
+			rewards: [{
+				id: "1D8D7E89E7C5C1D4"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E809B1DAB54EEB0"
+				item: "twilightforest:experiment_115"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["78493192F7A18FD2"]
+			id: "7CFDC9D05792B0F7"
+			rewards: [{
+				id: "3FBB010A64FBEC3A"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "004111041AFF2328"
+				item: "twilightforest:arctic_fur"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["680FD59F7ACC7E21"]
+			id: "783894B924DADBF3"
+			rewards: [{
+				id: "1227CA2604F6F3E1"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DB1319EBB15C2E6"
+				item: {
+					Count: 1b
+					id: "twilightforest:ice_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["680FD59F7ACC7E21"]
+			id: "4ECAAA1CD6BE4BF5"
+			rewards: [{
+				id: "26C0BAF7E0B2B6F0"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A92E39BB58BB84A"
+				item: {
+					Count: 1b
+					id: "twilightforest:glass_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3DA5A105662621B3"]
+			id: "55BF8309DB1F164E"
+			rewards: [{
+				id: "116ABD4C4DF2A7EC"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DBC738F3EA29777"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:maze_map_empty"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["43FF6B04F1048E09"]
+			id: "1CA63912FEC9F2F1"
+			rewards: [{
+				id: "1BE86555E162B91A"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F323BE3FF2C474A"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3DA5A105662621B3"]
+			id: "56393E6D9603847B"
+			rewards: [{
+				id: "36494D5670619C53"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DB21B4592253160"
+				item: "twilightforest:steeleaf_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["539453A048F71094"]
+			id: "04342EF31AB96881"
+			rewards: [{
+				id: "02D7EFFBBECC5790"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07B6DC966D68F28A"
+				item: "twilightforest:ironwood_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["56393E6D9603847B"]
+			id: "6D5895760DE85DBB"
+			rewards: [{
+				id: "1DD952B6E62999F5"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "49FEDCD0CDF6C9DB"
+					item: {
+						Count: 1b
+						id: "twilightforest:steeleaf_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:blast_protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3051F6A8DE45F95A"
+					item: {
+						Count: 1b
+						id: "twilightforest:steeleaf_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:projectile_protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B1BB1ECD7F383BF"
+					item: {
+						Count: 1b
+						id: "twilightforest:steeleaf_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "368247D3A024B5C4"
+					item: {
+						Count: 1b
+						id: "twilightforest:steeleaf_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["04342EF31AB96881"]
+			id: "4CD5D945469ED7CD"
+			rewards: [{
+				id: "2CE30C9ACD817577"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3402FF086F109E70"
+					item: {
+						Count: 1b
+						id: "twilightforest:ironwood_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C05314E4B5EABEB"
+					item: {
+						Count: 1b
+						id: "twilightforest:ironwood_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57D586ACD0A8D948"
+					item: {
+						Count: 1b
+						id: "twilightforest:ironwood_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "126287E15A95443A"
+					item: {
+						Count: 1b
+						id: "twilightforest:ironwood_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:aqua_affinity"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["56393E6D9603847B"]
+			id: "791467693193FE2C"
+			rewards: [{
+				id: "6D09D0FD9DC0F8D5"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7DD8D43FC472D769"
+				item: {
+					Count: 1b
+					id: "twilightforest:steeleaf_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:fortune"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["56393E6D9603847B"]
+			id: "29DC2B7477E00670"
+			rewards: [{
+				id: "3CC5F76961191B10"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52830A225F9060F4"
+				item: {
+					Count: 1b
+					id: "twilightforest:steeleaf_sword"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:looting"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["04342EF31AB96881"]
+			id: "1F3527F5941E03C1"
+			rewards: [{
+				id: "20510995563F9D74"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45B9DD44CB0618B2"
+				item: {
+					Count: 1b
+					id: "twilightforest:ironwood_sword"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:knockback"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["04342EF31AB96881"]
+			id: "13D7D177D3D16A11"
+			rewards: [{
+				id: "325BFED064192B58"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "626420C6A7583BCA"
+				item: {
+					Count: 1b
+					id: "twilightforest:ironwood_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:efficiency"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1CA63912FEC9F2F1"]
+			id: "5A77C5DF43E148DD"
+			rewards: [{
+				id: "176F7591437C18A5"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "252469E332F10CAB"
+				item: {
+					Count: 1b
+					id: "twilightforest:knightmetal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1CA63912FEC9F2F1"]
+			id: "6DAE4853C05E792B"
+			rewards: [{
+				id: "6617FB0F6B073CD5"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "116AF5959D257E81"
+				item: {
+					Count: 1b
+					id: "twilightforest:block_and_chain"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			description: ["Get your axes and shears ready! Search every nook and cranny and get anything and everything that comes from trees! Craft, loot, obtain every slab... sapling... leaves... more... everything. ALL OF IT! "]
+			id: "4BA7DC6CA55620AB"
+			rewards: [{
+				id: "1D3B797A69AAF0D6"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "twilightforest:arborist"
+				criterion: ""
+				id: "1248CDC2A4B7663D"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+	]
+	title: "Twilight Forest"
+}

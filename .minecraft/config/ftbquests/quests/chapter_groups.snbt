@@ -2,7 +2,9 @@
 	chapter_groups: [
 		{ id: "76D527603CCB17E5", title: "README FOR FREE SHIT" }
 		{ id: "33A417364C0A17FE", title: "&lTransport&r &b⚙" }
-		{ id: "0815C5D80307ECDF", title: "&lTechnology&r &e⚡" }
+		{ id: "0815C5D80307ECDF", title: "&lTechnology (SOUL)&r &e⚡" }
+		{ id: "6201EBBB63B94B24", title: "Technology (SOULLESS)" }
 		{ id: "1039AC171AB01709", title: "&lMagic&r &d✡" }
+		{ id: "3BF541F539E59E70", title: "Misc/Utility" }
 	]
 }

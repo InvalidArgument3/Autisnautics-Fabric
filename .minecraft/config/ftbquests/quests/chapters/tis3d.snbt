@@ -5,7 +5,7 @@
 	group: "0815C5D80307ECDF"
 	icon: "tis3d:terminal_module"
 	id: "18D3DA13B6375E4D"
-	order_index: 3
+	order_index: 1
 	quest_links: [ ]
 	quests: [{
 		description: ["I'm not writing this out. Just read the fucking manual."]

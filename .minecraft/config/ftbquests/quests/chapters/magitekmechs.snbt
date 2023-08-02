@@ -1,0 +1,58 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magitekmechs"
+	group: "33A417364C0A17FE"
+	icon: "mtmechs:ma_whole_item"
+	id: "64691315A94716B9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "29A5237A94ABA565"
+			rewards: [{
+				id: "6EC70C6460381094"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "234A16E38CF4FC7B"
+				item: "mtmechs:ma_whole_item"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4CFC8AC26CEF2999"
+			rewards: [{
+				id: "77776CBA3CE9EF25"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FD84AED8A330390"
+				item: "mtmechs:ta_whole_item"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "348F2FFE5E5D8D63"
+			rewards: [{
+				id: "5A4082CA8118DDFF"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01AC8E0A44355487"
+				item: "mtmechs:pa_whole_item"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	title: "Magitek-Mechs"
+}

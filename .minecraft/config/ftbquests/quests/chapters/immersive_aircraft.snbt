@@ -1,0 +1,94 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "immersive_aircraft"
+	group: "33A417364C0A17FE"
+	icon: "immersive_aircraft:biplane"
+	id: "7DDBBAF60CFE8C8C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6F39604E39D9A860"
+			rewards: [{
+				id: "783BC5FE4DFBC9D4"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13527E54B958CFFF"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			title: "the flight plan I filed with the agency"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "5E86AC44D9E91B09"
+			rewards: [{
+				id: "2CA4A00A590C68DC"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B497A3D9DAC4AA5"
+				item: "immersive_aircraft:gyrodyne"
+				title: "he didn't fly so good"
+				type: "item"
+			}]
+			title: "he didn't fly so good"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "2253DE08CEC3F4CC"
+			rewards: [{
+				id: "434B8BCBC8198AC5"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "03A9FFF1114E38E5"
+				item: "immersive_aircraft:quadrocopter"
+				type: "item"
+			}]
+			title: "UUUU"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6837A29F68E6984F"
+			rewards: [{
+				id: "56BAB59FD00ABA03"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F0F6B50886EE6AB"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			title: "you're a big guy"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "26CA559A1F90321B"
+			rewards: [{
+				id: "6725C5419B2A78E1"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45038A0F18ADECA0"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			title: "you don't get to bring friends"
+			x: -1.0d
+			y: 1.0d
+		}
+	]
+	title: "Immersive Aircraft"
+}
