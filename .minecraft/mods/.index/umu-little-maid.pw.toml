@@ -1,0 +1,14 @@
+name = "[Fabric] UMU Little Maid"
+filename = "umu_little_maid-2.10.jar"
+side = "both"
+
+[download]
+mode = "metadata:curseforge"
+url = ""
+hash-format = "sha1"
+hash = "092e513388910c105a81915c6a2983edc5e0ba6f"
+
+[update]
+[update.curseforge]
+file-id = 3958279
+project-id = 640722

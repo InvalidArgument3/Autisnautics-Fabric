@@ -2,6 +2,7 @@
 .minecraft/.fabric
 .minecraft/LMMLResources
 .minecraft/ModTranslations
+.minecraft/TrashSlotSaveState.json
 .minecraft/XaeroWaypoints
 .minecraft/XaeroWaypoints_BACKUP032021
 .minecraft/XaeroWorldMap

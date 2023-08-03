@@ -1,0 +1,14 @@
+name = "Slideshow(Fabric)"
+filename = "Slideshow-fabric-1.19.2-1.0.2-hotfix-1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/CvIO1eYD/versions/iqHVXEsO/Slideshow-fabric-1.19.2-1.0.2-hotfix-1.jar"
+hash-format = "sha512"
+hash = "3ca871be53c9c9b4d5a95e68ce4e89094b541d3478f05413e6631bc52311e15a038202c305637d97e36ee503b58d4514633a9808a5ce474ddd79dc898f8a6f12"
+
+[update]
+[update.modrinth]
+mod-id = "CvIO1eYD"
+version = "iqHVXEsO"
