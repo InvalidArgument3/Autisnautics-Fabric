@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "archon"
-	group: "244F516C4853FD2F"
+	group: ""
 	icon: "archon:grimoire"
 	id: "184A69F072ECA80E"
 	order_index: 0

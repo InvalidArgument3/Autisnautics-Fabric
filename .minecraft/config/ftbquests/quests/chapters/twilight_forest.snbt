@@ -824,6 +824,7 @@
 			y: 15.5d
 		}
 		{
+			dependencies: ["12A60ED4122F8DF6"]
 			id: "06B73D35B0EC71B6"
 			rewards: [{
 				id: "5DC96CFAB72DE36F"
@@ -932,12 +933,7 @@
 				id: "17F944328BBFD47D"
 				item: {
 					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "twilightforest:peacock_fan"
+					id: "twilightforest:peacock_feather_fan"
 					tag: {
 						Damage: 0
 					}
@@ -996,15 +992,7 @@
 			}]
 			tasks: [{
 				id: "5A24FB0A42778A97"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "twilightforest:magic_map_empty"
-				}
+				item: "twilightforest:filled_magic_map"
 				type: "item"
 			}]
 			x: 4.0d
@@ -1043,6 +1031,7 @@
 			y: -5.5d
 		}
 		{
+			dependencies: ["3DA5A105662621B3"]
 			id: "12A60ED4122F8DF6"
 			rewards: [{
 				id: "34DDA8CBE22F41E8"
@@ -1143,15 +1132,7 @@
 			}]
 			tasks: [{
 				id: "2DBC738F3EA29777"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "twilightforest:maze_map_empty"
-				}
+				item: "twilightforest:maze_map"
 				type: "item"
 			}]
 			x: 4.0d
@@ -1500,20 +1481,20 @@
 			y: 9.0d
 		}
 		{
-			description: ["Get your axes and shears ready! Search every nook and cranny and get anything and everything that comes from trees! Craft, loot, obtain every slab... sapling... leaves... more... everything. ALL OF IT! "]
-			id: "4BA7DC6CA55620AB"
+			dependencies: ["539453A048F71094"]
+			id: "2021FEB6952627CC"
 			rewards: [{
-				id: "1D3B797A69AAF0D6"
+				id: "3AD4F45DA0CD19D4"
 				item: "create:experience_nugget"
 				type: "item"
 			}]
+			subtitle: "double the recipes.json with one easy trick"
 			tasks: [{
-				advancement: "twilightforest:arborist"
-				criterion: ""
-				id: "1248CDC2A4B7663D"
-				type: "advancement"
+				id: "1686F3095941AB13"
+				item: "twilightforest:uncrafting_table"
+				type: "item"
 			}]
-			x: -2.0d
+			x: 8.0d
 			y: -5.5d
 		}
 	]

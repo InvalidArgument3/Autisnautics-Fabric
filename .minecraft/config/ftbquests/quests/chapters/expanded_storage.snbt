@@ -9,8 +9,21 @@
 	quest_links: [ ]
 	quests: [
 		{
+			description: [
+				"chests of different materials"
+				""
+				""
+				"Wooden: can store 27 items. (1 chests worth)"
+				"Copper: can store 45 items. (just under 2 chests worth)"
+				"Iron: can store 54 items. (2 chests worth)"
+				"Golden: is liked by piglins, can store 81 items. (3 chests worth)"
+				"Diamond: can store 108 items. (4 chests worth)"
+				"Obsidian: is blast proof, can store 108 items. (4 chests worth)"
+				"Netherite: is fire-resistant and blast proof, can store 135 items. (5 chests worth)"
+			]
 			icon: "expandedstorage:iron_chest"
 			id: "14386B5DEF318976"
+			subtitle: "he big"
 			tasks: [{
 				id: "58F60F54C48DDA29"
 				title: "Expanded Storage"
@@ -20,8 +33,17 @@
 			y: 0.0d
 		}
 		{
+			description: [
+				"Storage Crafting Terminal"
+				"Inventory Connector"
+				"Open Crate"
+				"Wireless terminal"
+				"Filtered connectors"
+				"Inventory Hopper"
+			]
 			icon: "toms_storage:ts.crafting_terminal"
 			id: "2B432446AEF2B357"
+			subtitle: "BazSort™ 2.0"
 			tasks: [{
 				id: "2FB71DB315F281CF"
 				title: "Tom's Simple Storage Mod"

@@ -9,7 +9,7 @@
   //Determines whether mana should only display if you have a mana item in your hand.
   //Client-Sided, Accepts "true" or "false"
   //Default: false (always shows mana)
-  "displayManaWithItem": false,
+  "displayManaWithItem": true,
   //Chance for a soul to drop when killing players and creatures using a soul scythe (bosses always drop a soul)
   //The number should follow these bounds: 0 <= x <= 1.0
   //Default: 0.05 (1/20)

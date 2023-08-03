@@ -2419,6 +2419,7 @@
 				"324A32F85A95B658"
 			]
 			hide_dependency_lines: true
+			icon: "create:wrench"
 			id: "3E4E2F31727CA995"
 			rewards: [
 				{
@@ -2459,13 +2460,14 @@
 				}
 			]
 			size: 2.0d
+			subtitle: "100% Completion"
 			tasks: [{
 				id: "770CE271DBE87AE0"
 				title: "The Mod That Saved Minecraft™"
 				type: "checkmark"
 			}]
 			x: 4.0d
-			y: 3.0d
+			y: -6.0d
 		}
 	]
 	title: "Create"

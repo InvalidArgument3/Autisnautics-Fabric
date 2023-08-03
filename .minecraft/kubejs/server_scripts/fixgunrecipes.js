@@ -13,7 +13,9 @@ ServerEvents.recipes(event => {
 	  
 	event.replaceInput({}, 'anim_guns:hardened_iron_ingot', 'techreborn:steel_ingot');
 
-	event.replaceInput({}, /anim_guns:.*iron.*/, 'techreborn:lead_ingot');
+	event.replaceInput({ mod: 'anim_guns', output: /.*Cartridge.*/ }, 'minecraft:iron_ingot', 'techreborn:lead_ingot');
+	
+
 
 
 })

@@ -159,7 +159,6 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["74C45E2E9EC08788"]
 			icon: "akashictomeoftools:akashic_tome"
 			id: "2DC22734C4FE19B4"
 			rewards: [{
@@ -185,7 +184,7 @@
 				type: "checkmark"
 			}]
 			x: -1.5d
-			y: -2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -216,6 +215,49 @@
 			}]
 			x: 1.5d
 			y: -5.0d
+		}
+		{
+			description: [
+				"This pack includes some clientside mods that are disabled by default"
+				""
+				"-Distant Horizons (good for potatoes)"
+			]
+			icon: "techreborn:wrench"
+			id: "2B8D5C4DC4C0811C"
+			rewards: [{
+				id: "66E989D553906806"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "what the fuck is a LOD?"
+			tasks: [{
+				id: "749287DA046CF1F5"
+				title: "optional client mods"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Ryzen 5 5600G"
+				"32GB RAM (~12gb allocated to java)"
+				"1TB NVME (found on the side of the road for 35$)"
+			]
+			icon: "minecraft:potato"
+			id: "3B3402C526697452"
+			rewards: [{
+				id: "1A2EEAF5FCED9379"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7202BF7D84D0FE10"
+				title: "server specs"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 0.0d
 		}
 	]
 	title: "Info"
