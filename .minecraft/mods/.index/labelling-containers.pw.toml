@@ -1,0 +1,14 @@
+name = "Labelling Containers"
+filename = "labellingcontainers-1.1.7-mc1.19.2.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/b2T42hfY/versions/sqLicTdO/labellingcontainers-1.1.7-mc1.19.2.jar"
+hash-format = "sha512"
+hash = "6a1d416a95cbf3080885ea38b3879c62361561f1255563ae4f6d4e64424c38a6367081cba204e09af3f1f56d42c7cfc8d0b7c0a0998d34fb14ad0e734cc962c9"
+
+[update]
+[update.modrinth]
+mod-id = "b2T42hfY"
+version = "sqLicTdO"
