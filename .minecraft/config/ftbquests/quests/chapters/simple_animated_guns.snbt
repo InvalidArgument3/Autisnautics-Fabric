@@ -15,6 +15,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["3D27A7A5060B763E"]
 			id: "362FB9F1D19F59B6"
 			rewards: [{
 				count: 6
@@ -35,9 +36,10 @@
 			}]
 			title: "Big Iron"
 			x: 0.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["3D27A7A5060B763E"]
 			id: "7AD30312454C3BF8"
 			rewards: [{
 				count: 6
@@ -58,9 +60,13 @@
 			}]
 			title: "Bigger Iron"
 			x: 0.0d
-			y: 1.0d
+			y: 3.0d
 		}
 		{
+			dependencies: [
+				"3D27A7A5060B763E"
+				"0FE4524BE914E612"
+			]
 			id: "211957A7E7780408"
 			rewards: [{
 				count: 100
@@ -80,10 +86,11 @@
 				type: "item"
 			}]
 			title: "Biggest Iron"
-			x: 4.5d
-			y: 3.0d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["3D27A7A5060B763E"]
 			id: "6CCA0EB93236BA33"
 			rewards: [{
 				count: 17
@@ -104,9 +111,10 @@
 			}]
 			title: "*pap* *pap* *pap*"
 			x: 0.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["3D27A7A5060B763E"]
 			id: "170166858AA03533"
 			rewards: [{
 				count: 7
@@ -127,9 +135,10 @@
 			}]
 			title: "juan"
 			x: 0.0d
-			y: 3.0d
+			y: 5.0d
 		}
 		{
+			dependencies: ["3D27A7A5060B763E"]
 			id: "255D39389B00EC60"
 			rewards: [{
 				count: 30
@@ -149,10 +158,11 @@
 				type: "item"
 			}]
 			title: "fuller auto"
-			x: 3.0d
-			y: 1.0d
+			x: 2.5d
+			y: 3.0d
 		}
 		{
+			dependencies: ["3D27A7A5060B763E"]
 			id: "736484FCFDE530E5"
 			rewards: [{
 				count: 25
@@ -172,10 +182,11 @@
 				type: "item"
 			}]
 			title: "full auto"
-			x: 3.0d
-			y: 0.0d
+			x: 2.5d
+			y: 4.0d
 		}
 		{
+			dependencies: ["3D27A7A5060B763E"]
 			id: "35923145C73CBE30"
 			rewards: [{
 				count: 30
@@ -195,10 +206,11 @@
 				type: "item"
 			}]
 			title: "Never Obsolete™"
-			x: 4.5d
-			y: 0.0d
+			x: 5.0d
+			y: -0.5d
 		}
 		{
+			dependencies: ["3D27A7A5060B763E"]
 			id: "7B6FEC2563676E96"
 			rewards: [{
 				count: 30
@@ -218,10 +230,11 @@
 				type: "item"
 			}]
 			title: "Non-Stop Warfare™"
-			x: 4.5d
-			y: 1.0d
+			x: 4.0d
+			y: -0.5d
 		}
 		{
+			dependencies: ["3D27A7A5060B763E"]
 			id: "65E8436A0F43B1FD"
 			rewards: [{
 				count: 30
@@ -241,10 +254,11 @@
 				type: "item"
 			}]
 			title: "I don't have any memes for the SCAR sorry"
-			x: 4.5d
-			y: 2.0d
+			x: 3.0d
+			y: -0.5d
 		}
 		{
+			dependencies: ["3D27A7A5060B763E"]
 			id: "5C4EBCE452F7DBCF"
 			rewards: [{
 				count: 5
@@ -264,10 +278,11 @@
 				title: "it's fine"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["3D27A7A5060B763E"]
 			id: "78DBFE47F6EFBC1A"
 			rewards: [{
 				count: 2
@@ -287,10 +302,11 @@
 				type: "item"
 			}]
 			title: "warcrimes (x2)"
-			x: 1.5d
-			y: 0.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["3D27A7A5060B763E"]
 			id: "0F04637906CEAC83"
 			rewards: [{
 				count: 8
@@ -310,10 +326,11 @@
 				type: "item"
 			}]
 			title: "warcrimes (x8)"
-			x: 1.5d
-			y: 2.0d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["3D27A7A5060B763E"]
 			id: "4E57A308F28EFA56"
 			rewards: [{
 				count: 6
@@ -333,7 +350,47 @@
 				type: "item"
 			}]
 			title: "warcrimes (x6)"
-			x: 1.5d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5AF67ACCC7190BB5"]
+			hide_dependent_lines: true
+			icon: "minecraft:book"
+			id: "3D27A7A5060B763E"
+			rewards: [{
+				id: "6C01C418B9990561"
+				item: "anim_guns:blueprint_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "72A6D9FC8AF1EA7A"
+				item: "minecraft:written_book"
+				title: "FFL"
+				type: "item"
+			}]
+			title: "Type 07 Manufacturers Federal Firearms License (FFL)"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "5AF67ACCC7190BB5"
+			title: "ATF Form 4473"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D27A7A5060B763E"]
+			icon: "labellingcontainers:label_printer"
+			id: "0FE4524BE914E612"
+			tasks: [{
+				count: 200L
+				id: "22F770DE9AC157F2"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			title: "Tax Stamp"
+			x: 5.0d
 			y: 1.0d
 		}
 	]

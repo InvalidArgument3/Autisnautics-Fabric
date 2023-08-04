@@ -3448,11 +3448,6 @@
 			]
 			size: 2.0d
 			subtitle: "100% Completion"
-			tasks: [{
-				id: "4D40B95EE66DAECF"
-				item: "croptopia:eggplant"
-				type: "item"
-			}]
 			title: "\"\"\"tech mod\"\"\""
 			x: 28.5d
 			y: -3.5d
