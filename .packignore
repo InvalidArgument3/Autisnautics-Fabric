@@ -1,5 +1,6 @@
 .git
 .minecraft/.fabric
+.minecraft/Distant_Horizons_server_data
 .minecraft/LMMLResources
 .minecraft/ModTranslations
 .minecraft/TrashSlotSaveState.json
@@ -7,7 +8,9 @@
 .minecraft/XaeroWaypoints_BACKUP032021
 .minecraft/XaeroWorldMap
 .minecraft/automodpack
+.minecraft/bluemap
 .minecraft/cachedImages
+.minecraft/crash-reports
 .minecraft/customplayermodel.cpmproject
 .minecraft/customskins
 .minecraft/data
