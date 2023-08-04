@@ -15,7 +15,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3D27A7A5060B763E"]
+			dependencies: ["37BBC1EED603CE1C"]
 			id: "362FB9F1D19F59B6"
 			rewards: [{
 				count: 6
@@ -36,10 +36,10 @@
 			}]
 			title: "Big Iron"
 			x: 0.0d
-			y: 2.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["3D27A7A5060B763E"]
+			dependencies: ["37BBC1EED603CE1C"]
 			id: "7AD30312454C3BF8"
 			rewards: [{
 				count: 6
@@ -59,13 +59,13 @@
 				type: "item"
 			}]
 			title: "Bigger Iron"
-			x: 0.0d
+			x: -3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: [
-				"3D27A7A5060B763E"
 				"0FE4524BE914E612"
+				"37BBC1EED603CE1C"
 			]
 			id: "211957A7E7780408"
 			rewards: [{
@@ -90,7 +90,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["3D27A7A5060B763E"]
+			dependencies: ["37BBC1EED603CE1C"]
 			id: "6CCA0EB93236BA33"
 			rewards: [{
 				count: 17
@@ -110,11 +110,11 @@
 				type: "item"
 			}]
 			title: "*pap* *pap* *pap*"
-			x: 0.0d
-			y: 4.0d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["3D27A7A5060B763E"]
+			dependencies: ["37BBC1EED603CE1C"]
 			id: "170166858AA03533"
 			rewards: [{
 				count: 7
@@ -134,11 +134,11 @@
 				type: "item"
 			}]
 			title: "juan"
-			x: 0.0d
-			y: 5.0d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["3D27A7A5060B763E"]
+			dependencies: ["37BBC1EED603CE1C"]
 			id: "255D39389B00EC60"
 			rewards: [{
 				count: 30
@@ -162,7 +162,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["3D27A7A5060B763E"]
+			dependencies: ["37BBC1EED603CE1C"]
 			id: "736484FCFDE530E5"
 			rewards: [{
 				count: 25
@@ -186,7 +186,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["3D27A7A5060B763E"]
+			dependencies: ["37BBC1EED603CE1C"]
 			id: "35923145C73CBE30"
 			rewards: [{
 				count: 30
@@ -206,11 +206,11 @@
 				type: "item"
 			}]
 			title: "Never Obsolete™"
-			x: 5.0d
-			y: -0.5d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["3D27A7A5060B763E"]
+			dependencies: ["37BBC1EED603CE1C"]
 			id: "7B6FEC2563676E96"
 			rewards: [{
 				count: 30
@@ -230,11 +230,11 @@
 				type: "item"
 			}]
 			title: "Non-Stop Warfare™"
-			x: 4.0d
-			y: -0.5d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["3D27A7A5060B763E"]
+			dependencies: ["37BBC1EED603CE1C"]
 			id: "65E8436A0F43B1FD"
 			rewards: [{
 				count: 30
@@ -254,11 +254,11 @@
 				type: "item"
 			}]
 			title: "I don't have any memes for the SCAR sorry"
-			x: 3.0d
-			y: -0.5d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["3D27A7A5060B763E"]
+			dependencies: ["37BBC1EED603CE1C"]
 			id: "5C4EBCE452F7DBCF"
 			rewards: [{
 				count: 5
@@ -279,10 +279,10 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["3D27A7A5060B763E"]
+			dependencies: ["37BBC1EED603CE1C"]
 			id: "78DBFE47F6EFBC1A"
 			rewards: [{
 				count: 2
@@ -302,11 +302,11 @@
 				type: "item"
 			}]
 			title: "warcrimes (x2)"
-			x: 0.0d
-			y: -3.0d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["3D27A7A5060B763E"]
+			dependencies: ["37BBC1EED603CE1C"]
 			id: "0F04637906CEAC83"
 			rewards: [{
 				count: 8
@@ -326,11 +326,11 @@
 				type: "item"
 			}]
 			title: "warcrimes (x8)"
-			x: 0.0d
+			x: -1.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["3D27A7A5060B763E"]
+			dependencies: ["37BBC1EED603CE1C"]
 			id: "4E57A308F28EFA56"
 			rewards: [{
 				count: 6
@@ -350,37 +350,56 @@
 				type: "item"
 			}]
 			title: "warcrimes (x6)"
-			x: 0.0d
-			y: -2.0d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["5AF67ACCC7190BB5"]
+			dependencies: ["76C5C3C1A54C72E0"]
 			hide_dependent_lines: true
 			icon: "minecraft:book"
 			id: "3D27A7A5060B763E"
 			rewards: [{
-				id: "6C01C418B9990561"
-				item: "anim_guns:blueprint_bundle"
+				id: "138DA7BB1D082EC1"
+				item: "create:experience_nugget"
 				type: "item"
 			}]
 			tasks: [{
-				id: "72A6D9FC8AF1EA7A"
-				item: "minecraft:written_book"
-				title: "FFL"
+				id: "67EA3A42ECC764FD"
+				item: {
+					Count: 1b
+					id: "minecraft:written_book"
+					tag: {
+						RepairCost: 0
+						author: "validpoint"
+						display: {
+							Name: "{\"text\":\"ATF Form 4473\"}"
+						}
+						filtered_title: "FUCK"
+						pages: [
+							"{\"text\":\"Put an X in between the brackets to indicate  your response. Sign when\\ncompleted.\\n\\na. Are you the actual transferee/buyer of the firearm(s) listed on this form?\\n\\n\\nYes []\\nNo []  \\n\"}"
+							"{\"text\":\"b. Are you under indictment or information in any court for a felony, or any other crime for which the judge could imprison you for\\nmore than one year? (See Instructions for Question 11.b.)  \\n\\n\\nYes []\\nNo []\"}"
+							"{\"text\":\"c. Have you ever been convicted in any court of a felony, or any other crime for which the judge could have imprisoned you for more\\nthan one year, even if you received a shorter sentence including probation? \\n\\nYes []\\nNo []\"}"
+							"{\"text\":\"d. Are you a fugitive from justice?\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nYes []\\nNo []\"}"
+							"{\"text\":\"e. Are you an unlawful user of, or addicted to, marijuana or any depressant, stimulant, narcotic drug, or any other controlled substance?\\n\\n\\n\\n\\n\\nYes []\\nNo []\"}"
+							"{\"text\":\"f. Have you ever been adjudicated as a mental defective OR have you ever been committed to a mental institution?\\n\\n\\n\\n\\n\\n\\nYes []\\nNo []\"}"
+							"{\"text\":\"g. Have you been discharged from the Armed Forces under dishonorable conditions?\\n\\n\\n\\n\\n\\n\\n\\nYes []\\nNo []\"}"
+							"{\"text\":\"h. Are you subject to a court order restraining you from harassing, stalking, or threatening your child or an intimate partner or child of\\nsuch partner?\\n\\n\\n\\n\\nYes []\\nNo []\"}"
+							"{\"text\":\"i. Have you ever been convicted in any court of a misdemeanor crime of domestic violence?\\n\\n\\n\\n\\n\\n\\n\\nYes []\\nNo []\"}"
+							"{\"text\":\"j. Are you an active or previously active threat to society?\\n\\n\\n\\n\\n\\n\\n\\n\\n\\nYes []\\nNo []\"}"
+						]
+						resolved: 1b
+						title: "FUCK"
+					}
+				}
+				match_nbt: false
 				type: "item"
 			}]
 			title: "Type 07 Manufacturers Federal Firearms License (FFL)"
-			x: -2.5d
-			y: 1.0d
-		}
-		{
-			id: "5AF67ACCC7190BB5"
-			title: "ATF Form 4473"
 			x: -5.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["3D27A7A5060B763E"]
+			dependencies: ["37BBC1EED603CE1C"]
 			icon: "labellingcontainers:label_printer"
 			id: "0FE4524BE914E612"
 			tasks: [{
@@ -391,6 +410,64 @@
 			}]
 			title: "Tax Stamp"
 			x: 5.0d
+			y: 1.0d
+		}
+		{
+			icon: "minecraft:filled_map"
+			id: "76C5C3C1A54C72E0"
+			rewards: [{
+				id: "21BF774272F2ACD5"
+				item: {
+					Count: 1b
+					id: "minecraft:writable_book"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"ATF Form 4473\"}"
+						}
+						pages: [
+							"Put an X in between the brackets to indicate  your response. Sign when\ncompleted.\n\na. Are you the actual transferee/buyer of the firearm(s) listed on this form?\n\n\nYes []\nNo []  \n"
+							"b. Are you under indictment or information in any court for a felony, or any other crime for which the judge could imprison you for\nmore than one year? (See Instructions for Question 11.b.)  \n\n\nYes []\nNo []"
+							"c. Have you ever been convicted in any court of a felony, or any other crime for which the judge could have imprisoned you for more\nthan one year, even if you received a shorter sentence including probation? \n\nYes []\nNo []"
+							"d. Are you a fugitive from justice?\n\n\n\n\n\n\n\n\n\n\nYes []\nNo []"
+							"e. Are you an unlawful user of, or addicted to, marijuana or any depressant, stimulant, narcotic drug, or any other controlled substance?\n\n\n\n\n\nYes []\nNo []"
+							"f. Have you ever been adjudicated as a mental defective OR have you ever been committed to a mental institution?\n\n\n\n\n\n\nYes []\nNo []"
+							"g. Have you been discharged from the Armed Forces under dishonorable conditions?\n\n\n\n\n\n\n\nYes []\nNo []"
+							"h. Are you subject to a court order restraining you from harassing, stalking, or threatening your child or an intimate partner or child of\nsuch partner?\n\n\n\n\nYes []\nNo []"
+							"i. Have you ever been convicted in any court of a misdemeanor crime of domestic violence?\n\n\n\n\n\n\n\nYes []\nNo []"
+							"j. Are you an active or previously active threat to society?\n\n\n\n\n\n\n\n\n\nYes []\nNo []"
+						]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: ":^)"
+			tasks: [{
+				id: "579E90AF608D6F5A"
+				title: "Paperwork"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3D27A7A5060B763E"]
+			hide_dependent_lines: true
+			id: "37BBC1EED603CE1C"
+			rewards: [{
+				id: "482A03B607E46BFA"
+				item: "anim_guns:blueprint_bundle"
+				type: "item"
+			}]
+			subtitle: "Please wait one hour for our system to process your information."
+			tasks: [{
+				elapsedTime: 3600L
+				icon: "minecraft:clock"
+				id: "16F47FF92E9C301F"
+				type: "questsadditions:time"
+			}]
+			title: "Processing (1h)"
+			x: -3.5d
 			y: 1.0d
 		}
 	]

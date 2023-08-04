@@ -344,6 +344,9 @@
     "touhouorigins:tsukumogami_menreiki": {
       "enabled": true,
       "touhouorigins:tsukumogami_menreiki": true
+    },
+    "ratsmischief:rat": {
+      "enabled": true
     }
   }
 }
