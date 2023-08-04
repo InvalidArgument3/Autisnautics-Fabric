@@ -13,9 +13,27 @@ ServerEvents.recipes(event => {
 	  
 	event.replaceInput({}, 'anim_guns:hardened_iron_ingot', 'techreborn:steel_ingot');
 
-	event.replaceInput({ mod: 'anim_guns', output: /.*Cartridge.*/ }, 'minecraft:iron_ingot', 'techreborn:lead_ingot');
+	event.remove({ output: 'anim_guns:standard_handgun_cartridge' });
+	event.remove({ output: 'anim_guns:heavy_handgun_cartridge' });
+	event.remove({ output: 'anim_guns:standard_rifle_cartridge' });
+	event.remove({ output: 'anim_guns:heavy_rifle_cartridge' });
+	event.remove({ output: 'anim_guns:shotgun_shell' });
 	
-
+	
+	
+event.shaped(
+  Item.of('anim_guns:standard_handgun_cartridge', 8), // arg 1: output
+  [ 
+    'A', 
+    'B ', // arg 2: the shape (array of strings)
+    'C'  
+  ],
+  {
+    A: 'techreborn:lead_nugget', 
+    B: 'minecraft:gunpowder',  //arg 3: the mapping object
+    C: 'minecraft:lead_ingot'   
+  }
+)
 
 
 })
